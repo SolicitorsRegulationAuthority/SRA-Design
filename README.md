@@ -12,17 +12,16 @@ Examples are stored in Frontify.com
 
 ### CSS
 
-Bootstrap v3.x
-
+* Bootstrap v3.x
 
 ### JS 
 
-JQuery 3.x
-Bootstrap v3.x
-Masonry Layout v4.x
+* JQuery 3.x
+* Bootstrap v3.x
+* Masonry Layout v4.x
 
-#### JQuery Libraries 
+#### JQuery packages 
 
-MMenu
-Tooltipster
+* MMenu
+* Tooltipster
  
