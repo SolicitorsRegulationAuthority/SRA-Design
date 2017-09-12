@@ -24,4 +24,3 @@ Examples are stored in Frontify.com
 
 * MMenu
 * Tooltipster
- 
