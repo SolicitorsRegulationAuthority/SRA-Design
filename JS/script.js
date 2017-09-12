@@ -2,7 +2,7 @@ $('.back-top').affix({
     offset: {
           top: 900,
           bottom: function () {
-            return (this.bottom = $('.footer-wrapper').outerHeight(true))
+            return (this.bottom = $('.footer-wrapper').outerHeight(true));
         }
      }
   });
