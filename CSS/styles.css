@@ -4605,9 +4605,6 @@ a {
   }
 
 
-
-
-
   hr.thick-divider {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -4675,7 +4672,7 @@ select {border-radius:6px;
     background:#f2f2f2;
     border-color: #ddd;
     font-family: 'open-sans-bold', sans-serif;
-    text-align:left;
+    text-align:left; 
     padding:10px 12px;
     letter-spacing:-0.02em;
     white-space:normal;}
@@ -4683,10 +4680,10 @@ select {border-radius:6px;
     /*Remove print tab sections*/
     .printpage.tab {display:none;} 
 
-    /*Glossary lists*/
-
+    /*Glossary lists to make handbook work*/
     dt.glossaryterm{width:initial;float:none;font-size:18px;}
-
     dd.glossarydefinition{    width: initial;
         float: none;
         margin:0 0 10px 0;}
+
+p {outline:none;}
