@@ -24,3 +24,7 @@ Examples are stored in Frontify.com
 
 * MMenu
 * Tooltipster
+
+## Change log
+
+* 11/10/2017 - changed around primary and secondary buttons classes
