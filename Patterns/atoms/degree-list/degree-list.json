@@ -1,0 +1,16 @@
+{
+    "name": "Degree list",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/degree-list/degree-list.html"
+        ],
+        "css": [
+            "patterns/atoms/degree-list/css/degree-list.css"
+        ],
+        "js": [
+            "patterns/atoms/degree-list/js/degree-list.js"
+        ]
+    }
+}

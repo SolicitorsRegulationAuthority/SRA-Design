@@ -1,0 +1,16 @@
+{
+    "name": "Loading panel",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/loading-panel/loading-panel.html"
+        ],
+        "css": [
+            "patterns/atoms/loading-panel/css/loading-panel.css"
+        ],
+        "js": [
+            "patterns/atoms/loading-panel/js/loading-panel.js"
+        ]
+    }
+}

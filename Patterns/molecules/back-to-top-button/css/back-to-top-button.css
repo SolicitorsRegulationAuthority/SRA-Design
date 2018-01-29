@@ -1,0 +1,40 @@
+.back-top {
+  position: absolute;
+  right: 20px;
+  top: -58px;
+  background: #98002d;
+  border-color: #98002d;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  color:#fff;
+  border-radius:0;
+}
+.back-top:hover,
+.back-top:focus,
+.back-top:active {
+  background-color: #b10035;
+  border-color: #b10035;
+}
+.back-top .icon {
+  display: block;
+  font-size: 26px;
+  margin-bottom: 3px;
+}
+.back-top.affix-top {
+    bottom: 0;
+    top: auto;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.back-top.affix {
+    bottom: 0;
+    top: auto;
+    position: fixed;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+.back-top.affix-bottom {
+    position: absolute;
+    bottom: auto;
+    top: -58px !important;
+}

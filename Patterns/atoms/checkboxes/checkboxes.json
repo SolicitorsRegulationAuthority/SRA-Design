@@ -1,0 +1,13 @@
+{
+    "name": "Checkboxes",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/checkboxes/checkboxes.html"
+        ],
+        "css": [
+            "patterns/atoms/checkboxes/css/checkboxes.css"
+        ]
+    }
+}

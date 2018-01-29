@@ -1,0 +1,118 @@
+.navbar-extra-xs {
+    background: #b10035;
+    overflow: hidden;
+    margin: 0;
+    transition: transform 0.2s ease-in-out, top 0.2s ease-in-out, padding-bottom 0.2s ease-in-out;
+    z-index: 100;
+    height: 45px;
+    width: 100%;
+    transform: translateY(0px);
+}
+.navbar-extra-xs .btn-primary {
+    padding: 12px 8px;
+    border-radius: 0;
+}
+@media all and (min-width:380px) {
+  .navbar-extra-xs .btn-primary {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.navbar-extra-xs .btn + .btn {
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+}
+.navbar-extra-xs .btn-primary span {
+    padding-left: 12px;
+    font-family: 'open-sans-bold';
+}
+.search-box-xs {
+    padding:0;
+    display:none;
+}
+.search-box-xs input[type=text] {
+    height:52px;
+    width:100%;
+    padding:10px 15px;
+    border:1px solid #ddd;
+    border-radius:0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.search-box-xs .btn-primary {
+    background:#eee;
+    border-color:#eee;
+    color:#000;
+    height:52px;
+    border-radius:0;
+    padding-top:15px;
+}
+@media all and (max-width: 991px) {
+  .navbar-default {
+    width:100%;
+    padding:0;
+    min-height:62px;
+  }
+  .navbar-default .navbar-collapse {
+    display: none !important;
+  }
+}
+
+
+
+.navbar-extra-xs {
+    background: #b10035;
+    overflow: hidden;
+    margin: 0;
+    transition: transform .2s ease-in-out,top .2s ease-in-out,padding-bottom .2s ease-in-out;
+    z-index: 100;
+    height: 45px;
+    width: 100%;
+    transform: translateY(0)
+}
+
+.navbar-extra-xs .btn-primary {
+    padding: 12px 8px;
+    border-radius: 0
+}
+
+@media all and (min-width: 380px) {
+    .navbar-extra-xs .btn-primary {
+        padding-left:20px;
+        padding-right: 20px
+    }
+}
+
+.navbar-extra-xs .btn+.btn {
+    border-left: 1px solid rgba(255,255,255,.7)
+}
+
+.navbar-extra-xs .btn-primary span {
+    padding-left: 12px;
+    font-family: open-sans-bold;
+    font-weight: 400
+}
+
+.search-box-xs {
+    padding: 0;
+    display: none
+}
+
+.search-box-xs input[type=text] {
+    height: 52px;
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none
+}
+
+.search-box-xs .btn-primary {
+    background: #eee;
+    border-color: #eee;
+    color: #000;
+    height: 52px;
+    border-radius: 0;
+    padding-top: 15px
+}

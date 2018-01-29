@@ -1,0 +1,16 @@
+{
+    "name": "Homepage video CTAs",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/homepage-video-ctas/homepage-video-ctas.html"
+        ],
+        "css": [
+            "patterns/atoms/homepage-video-ctas/css/homepage-video-ctas.css"
+        ],
+        "js": [
+            "patterns/atoms/homepage-video-ctas/js/homepage-video-ctas.js"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Mobile menu",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/mobile-menu/mobile-menu.html"
+        ],
+        "css": [
+            "patterns/atoms/mobile-menu/css/mobile-menu.css"
+        ],
+        "js": [
+            "patterns/atoms/mobile-menu/js/mobile-menu.js"
+        ]
+    }
+}

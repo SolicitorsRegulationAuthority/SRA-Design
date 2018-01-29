@@ -1,0 +1,13 @@
+{
+    "name": "Dropdown",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/dropdown/dropdown.html"
+        ],
+        "css": [
+            "patterns/atoms/dropdown/css/dropdown.css"
+        ]
+    }
+}

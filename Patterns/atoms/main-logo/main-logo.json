@@ -1,0 +1,13 @@
+{
+    "name": "Main logo",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/main-logo/main-logo.html"
+        ],
+        "css": [
+            "patterns/atoms/main-logo/css/main-logo.css"
+        ]
+    }
+}

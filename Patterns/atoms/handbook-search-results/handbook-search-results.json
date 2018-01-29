@@ -1,0 +1,13 @@
+{
+    "name": "Handbook search results",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/handbook-search-results/handbook-search-results.html"
+        ],
+        "css": [
+            "patterns/atoms/handbook-search-results/css/handbook-search-results.css"
+        ]
+    }
+}

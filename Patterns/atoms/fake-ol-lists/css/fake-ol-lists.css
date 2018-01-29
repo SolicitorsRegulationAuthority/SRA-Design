@@ -1,0 +1,56 @@
+.article ul.fake-ol {
+  list-style: none;
+}
+.article ul.fake-ol ul li {
+  margin-left: 0;
+  padding-left: 0;
+}
+.article ul.fake-ol p {
+  display: inline;
+}
+.article ul.fake-ol > li {
+  padding-left: 0px;
+  padding-right: 0;
+  margin-bottom: 15px;
+}
+@media (min-width: 768px) {
+  .article ul.fake-ol > li {
+    padding-left: 10px;
+    margin-left: 28px;
+  }
+}
+@media (max-width: 767px) {
+  .article ul.fake-ol > li {
+    margin-left: 0 !important;
+  }
+}
+.article ul.fake-ol > li:before {
+  display: none;
+}
+.article ul.fake-ol > li .num1 {
+  display: block;
+  padding-right: 0px;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .article ul.fake-ol > li .num1 {
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .article ul.fake-ol > li .num1 {
+    margin-left: 0 !important;
+    font-family: 'open-sans-bold';
+  }
+}
+.article ul.fake-ol .re-ul {
+  padding-left: 20px;
+  margin-top:18px;
+  margin-bottom:30px;
+}
+.article ul.fake-ol .re-ul li:before {
+  content: "\002022";
+}

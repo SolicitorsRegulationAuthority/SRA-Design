@@ -1,0 +1,13 @@
+{
+    "name": "List without bullets",
+    "type": "molecule",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/molecules/list-without-bullets/list-without-bullets.html"
+        ],
+        "css": [
+            "patterns/molecules/list-without-bullets/css/list-without-bullets.css"
+        ]
+    }
+}

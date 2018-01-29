@@ -1,0 +1,16 @@
+{
+    "name": "Video grid",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/video-grid/video-grid.html"
+        ],
+        "css": [
+            "patterns/atoms/video-grid/css/video-grid.css"
+        ],
+        "js": [
+            "patterns/atoms/video-grid/js/video-grid.js"
+        ]
+    }
+}

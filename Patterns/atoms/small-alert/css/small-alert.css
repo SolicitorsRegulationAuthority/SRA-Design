@@ -1,0 +1,18 @@
+.alert-info-sm.alert-info {
+    padding: 20px 20px 8px 64px;
+}
+.alert-info-sm.alert-info:before {
+    top: 14px;
+    left: 18px;
+    font-size: 32px;
+}
+@media all and (min-width:768px) {
+  .alert-info-sm.alert-info {
+    padding: 25px 40px 12px 80px;
+  }
+  .alert-info-sm.alert-info:before {
+    top: 10px;
+    left: 26px;
+    font-size: 38px;
+  }
+}

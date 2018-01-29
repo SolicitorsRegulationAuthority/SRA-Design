@@ -1,0 +1,7 @@
+hr.thin-divider {
+  height: 0;
+  border-color:#ddd;
+}
+.sidebar hr {
+  margin: 30px 0;
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Handbook search results glossary terms",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/handbook-search-results-glossary-terms/handbook-search-results-glossary-terms.html"
+        ]
+    }
+}

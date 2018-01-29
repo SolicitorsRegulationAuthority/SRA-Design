@@ -1,0 +1,16 @@
+{
+    "name": "Bookmark link",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/bookmark-link/bookmark-link.html"
+        ],
+        "css": [
+            "patterns/atoms/bookmark-link/css/bookmark-link.css"
+        ],
+        "js": [
+            "patterns/atoms/bookmark-link/js/bookmark-link.js"
+        ]
+    }
+}

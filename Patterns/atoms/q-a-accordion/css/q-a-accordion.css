@@ -1,0 +1,50 @@
+.accordion.panel-group .panel-title>a span {
+    margin-right: 60px;
+}
+.accordion.panel-group .panel-title>a span {
+    margin-right: 15px;
+    display: inline-block;
+}
+.accordion.panel-group .panel-title>a p {
+    font-family: 'open-sans', sans-serif;
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #191919;
+    display:block;
+}
+.accordion-more {
+  color: #b10035;
+  text-decoration: underline;
+  margin-bottom:0;
+}
+.accordion p {
+  margin-bottom:20px;
+  letter-spacing:0;
+}
+.article ul:not(.nav-tabs) {
+    margin-bottom: 30px;
+}
+.accordion.panel-group ul {
+    padding-left: 0;
+}
+.article ul:not(.nav-tabs)>li, .accordion.panel-group ul:not(.list-no-bullets) > li {
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 12px;
+    padding-left: 19px;
+}
+.article ul:not(.nav-tabs)>li a, .accordion.panel-group ul:not(.list-no-bullets) > li a {
+    color: #b10035;
+    text-decoration: underline;
+}
+.article ul:not(.nav-tabs)>li:before, .accordion.panel-group ul:not(.list-no-bullets) > li:before {
+    content: "\002022";
+    color: #b10035;
+    padding-right: 10px;
+    font-size: 22px;
+    position: relative;
+    margin-left: -19px;
+    float: left;
+    display: block;
+}

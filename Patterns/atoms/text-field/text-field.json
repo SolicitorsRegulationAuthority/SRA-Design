@@ -1,0 +1,13 @@
+{
+    "name": "Text field",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/text-field/text-field.html"
+        ],
+        "css": [
+            "patterns/atoms/text-field/css/text-field.css"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Fake-ol lists",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/fake-ol-lists/fake-ol-lists.html"
+        ],
+        "css": [
+            "patterns/atoms/fake-ol-lists/css/fake-ol-lists.css"
+        ],
+        "js": [
+            "patterns/atoms/fake-ol-lists/js/fake-ol-lists.js"
+        ]
+    }
+}

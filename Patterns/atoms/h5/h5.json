@@ -1,0 +1,13 @@
+{
+    "name": "H5",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "css": [
+            "patterns/atoms/h5/css/h5.css"
+        ],
+        "html": [
+            "patterns/atoms/h5/h5.html"
+        ]
+    }
+}

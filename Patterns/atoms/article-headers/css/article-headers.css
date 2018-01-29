@@ -1,0 +1,21 @@
+.article h1 {
+  margin-bottom: 16px;
+}
+.article-date {
+  color: #6f777b;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.page-header {
+  border: 0;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+@media all and (min-width:768px) {
+  .page-header {
+    margin-top:0px;
+    margin-bottom:40px;
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Multi-step form progress indicator",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/multi-step-form-progress-indicator/multi-step-form-progress-indicator.html"
+        ],
+        "css": [
+            "patterns/atoms/multi-step-form-progress-indicator/css/multi-step-form-progress-indicator.css"
+        ]
+    }
+}

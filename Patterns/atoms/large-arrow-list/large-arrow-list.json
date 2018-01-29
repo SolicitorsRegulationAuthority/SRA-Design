@@ -1,0 +1,13 @@
+{
+    "name": "Large arrow list",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/large-arrow-list/large-arrow-list.html"
+        ],
+        "css": [
+            "patterns/atoms/large-arrow-list/css/large-arrow-list.css"
+        ]
+    }
+}

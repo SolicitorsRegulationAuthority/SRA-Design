@@ -1,0 +1,52 @@
+.handbook-sidebar .level-title {
+  background: #b10035;
+  color: #fff;
+  padding: 20px 15px 15px 15px;
+  margin: 0;
+  line-height: 25px;
+  float: left;
+  width: calc(100% - 90px);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+  transition: all 0.15s ease-in-out;
+}
+.help-back, .back-sidebar {
+    cursor: pointer;
+    float: left;
+    width: 90px;
+    height: 60px;
+    padding: 17px 15px;
+    background: #90022d;
+    text-align: center;
+}
+.help-back i, .back-sidebar i {
+    color: #fff;
+    font-size: 24px;
+}
+
+@media all and (min-width: 768px) {
+  .handbook-sidebar .level-title {
+    padding-top: 72px;
+    border-top: 1px solid #dc6383;
+  }
+  .help-back, .back-sidebar {
+    padding: 41px 15px;
+    border-top: 1px solid #dc6383;
+    height: 113px;
+  }
+  .help-back i, .back-sidebar i {
+    font-size: 29px;
+  }
+}
+@media all and (min-width: 992px) {
+  .handbook-sidebar .level-title {
+    padding-top: 80px;
+  }
+  .help-back, .back-sidebar {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    height: 121px;
+  }
+}

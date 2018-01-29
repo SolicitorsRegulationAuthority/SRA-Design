@@ -1,0 +1,13 @@
+{
+    "name": "Links within the SRA",
+    "type": "molecule",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/molecules/links-within-the-sra/links-within-the-sra.html"
+        ],
+        "css": [
+            "patterns/molecules/links-within-the-sra/css/links-within-the-sra.css"
+        ]
+    }
+}

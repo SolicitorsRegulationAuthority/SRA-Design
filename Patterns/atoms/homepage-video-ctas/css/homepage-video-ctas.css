@@ -1,0 +1,21 @@
+.video {
+  margin-bottom:30px;
+}
+.video .video-title {
+  line-height: 25px;
+  display: block;
+}
+.video .video-title a {
+  color:#191919;
+}
+.video p {
+    margin-top: 20px;
+}
+@media all and (min-width:768px) {
+  .video {
+    margin-bottom:20px;
+  }
+  .video .video-title {
+    min-height: 50px;
+  }
+}

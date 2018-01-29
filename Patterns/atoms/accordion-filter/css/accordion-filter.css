@@ -1,0 +1,64 @@
+.panel-active {
+    background-color:#f2f2f2 !important;
+}
+.accordion.all-filters {
+    border: 0;
+    margin-bottom: 0;
+}
+.accordion.all-filters > .panel-default {
+    padding: 0;
+    border-bottom: 0;
+}
+.accordion-filters {
+    border: 1px solid #dedede;
+}
+@media all and (min-width: 768px) {
+  .accordion.all-filters > .panel-default > .panel-heading {
+    display: none;
+  }
+  .accordion.all-filters > .panel-default > .panel-collapse {
+    display: block !important;
+    height: auto !important;
+  }
+  .accordion-filters {
+    border: 1px solid #dedede;
+    border-top: 4px solid #b10035;
+  }
+}
+.accordion.all-filters > .panel-default > .panel-collapse > .panel-body {
+    padding: 0;
+}
+
+.accordion-filters .panel {
+    padding: 0 15px;
+}
+.accordion.all-filters .accordion h4.panel-title {
+    margin: 0;
+}
+.accordion-filters .radio-custom label:before, .accordion-filters .checkbox-custom label:before {
+    background-color: #f2f2f2;
+}
+.accordion.all-filters > .panel-default > .panel-heading > .panel-title {
+    background: #b10035;
+    color: #fff;
+    padding: 0 15px;
+}
+.accordion.all-filters > .panel-default > .panel-heading > .panel-title a {
+    color:#fff;
+}
+.accordion.all-filters > .panel-default > .panel-heading > .panel-title a:after {
+    color: #fff;
+    right: 25px;
+}
+@media all and (max-width:767px) {
+  .all-filters .accordion-filters {
+    margin-bottom:30px;
+  }
+}
+.reset-filters {
+    color: #b10035;
+    text-decoration: underline;
+    font-size: 16px;
+    margin: 0 0 30px 0;
+    display: inline-block;
+}

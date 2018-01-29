@@ -1,0 +1,16 @@
+{
+    "name": "Smaller search bar for results page",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/smaller-search-bar-for-results-page/smaller-search-bar-for-results-page.html"
+        ],
+        "js": [
+            "patterns/atoms/smaller-search-bar-for-results-page/js/smaller-search-bar-for-results-page.js"
+        ],
+        "css": [
+            "patterns/atoms/smaller-search-bar-for-results-page/css/smaller-search-bar-for-results-page.css"
+        ]
+    }
+}

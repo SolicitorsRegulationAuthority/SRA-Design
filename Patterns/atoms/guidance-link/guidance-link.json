@@ -1,0 +1,13 @@
+{
+    "name": "Guidance link",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/guidance-link/guidance-link.html"
+        ],
+        "css": [
+            "patterns/atoms/guidance-link/css/guidance-link.css"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Desktop menu button",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/desktop-menu-button/desktop-menu-button.html"
+        ],
+        "css": [
+            "patterns/atoms/desktop-menu-button/css/desktop-menu-button.css"
+        ]
+    }
+}

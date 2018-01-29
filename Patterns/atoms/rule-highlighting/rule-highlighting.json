@@ -1,0 +1,16 @@
+{
+    "name": "Rule highlighting",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/rule-highlighting/rule-highlighting.html"
+        ],
+        "js": [
+            "patterns/atoms/rule-highlighting/js/rule-highlighting.js"
+        ],
+        "css": [
+            "patterns/atoms/rule-highlighting/css/rule-highlighting.css"
+        ]
+    }
+}

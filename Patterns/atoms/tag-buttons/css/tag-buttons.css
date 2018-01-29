@@ -1,0 +1,9 @@
+.rule-tags {
+  padding:10px 15px;
+}
+.rule-tags .btn {
+  border-radius: 5px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  font-family: 'open-sans-bold', sans-serif;
+}

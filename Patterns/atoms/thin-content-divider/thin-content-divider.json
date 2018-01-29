@@ -1,0 +1,13 @@
+{
+    "name": "Thin content divider",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/thin-content-divider/thin-content-divider.html"
+        ],
+        "css": [
+            "patterns/atoms/thin-content-divider/css/thin-content-divider.css"
+        ]
+    }
+}

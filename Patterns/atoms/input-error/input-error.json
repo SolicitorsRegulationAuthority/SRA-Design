@@ -1,0 +1,13 @@
+{
+    "name": "Input error",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/input-error/input-error.html"
+        ],
+        "css": [
+            "patterns/atoms/input-error/css/input-error.css"
+        ]
+    }
+}

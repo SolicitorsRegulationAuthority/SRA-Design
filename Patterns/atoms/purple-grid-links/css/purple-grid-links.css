@@ -1,0 +1,6 @@
+.grid-purple {
+    border-color: #7D4199;
+}
+.grid-purple .grid-link h4:before {
+    color: #7D4199;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "List group with title links",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/list-group-with-title-links/list-group-with-title-links.html"
+        ],
+        "css": [
+            "patterns/atoms/list-group-with-title-links/css/list-group-with-title-links.css"
+        ]
+    }
+}

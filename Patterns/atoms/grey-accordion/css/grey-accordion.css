@@ -1,0 +1,29 @@
+.accordion-well {
+    margin-bottom:35px;
+}
+.accordion-well .link-block {
+    display:block;
+    color:#191919;
+    background:#f2f2f2;
+    text-align:left;
+    color:$brand-primary;
+    border-top:1px solid #d2d2d2;
+    border-bottom:1px solid #d2d2d2;
+    border-left:0;
+    border-right:0;
+    font-family:'open-sans-bold';
+    font-size:20px;
+    padding:12px;
+    text-transform:uppercase;
+}
+.accordion-well .link-block:not(.collapsed) .icon:before {
+    content:'\e90f';
+}
+.accordion-well .link-block .icon {
+    float:right;
+    font-size:23px;
+}
+
+.accordion-well .link-block .well {
+    padding:25px;
+}

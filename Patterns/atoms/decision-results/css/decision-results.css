@@ -1,0 +1,26 @@
+.search-again-link {
+  padding: 10px 15px;
+  border: 1px solid #cdcdcd;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  text-decoration:underline;
+}
+.search-again-link:hover,
+.search-again-link:focus {
+  color:#b10035;
+}
+.accordion-results.panel-group.accordion-listings .panel-default {
+  padding: 0;
+}
+.accordion-results.panel-group .accordion-section {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+.accordion-results.panel-group .accordion-section:not(:first-of-type) {
+  border-top: 1px solid #cdcdcd;
+}
+.accordion-results.panel-group.accordion-listings .panel-title > a {
+  padding-left: 15px;
+  width:100%:
+}

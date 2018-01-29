@@ -1,0 +1,13 @@
+{
+    "name": "H2",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/h2/h2.html"
+        ],
+        "css": [
+            "patterns/atoms/h2/css/h2.css"
+        ]
+    }
+}

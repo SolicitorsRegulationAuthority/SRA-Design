@@ -1,0 +1,13 @@
+{
+    "name": "Buttons",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/buttons/buttons.html"
+        ],
+        "css": [
+            "patterns/atoms/buttons/css/buttons.css"
+        ]
+    }
+}

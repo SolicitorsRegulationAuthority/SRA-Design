@@ -1,0 +1,13 @@
+{
+    "name": "CTA button",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/cta-button/cta-button.html"
+        ],
+        "css": [
+            "patterns/atoms/cta-button/css/cta-button.css"
+        ]
+    }
+}

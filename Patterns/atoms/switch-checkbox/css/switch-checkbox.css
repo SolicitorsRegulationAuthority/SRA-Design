@@ -1,0 +1,58 @@
+.switch-wrap > span {
+  margin-right: 20px;
+  font-size:15px;
+}
+@media all and (max-width:767px) {
+  .switch-wrap {
+    padding:0 15px;
+  }
+}
+.switch-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 20px;
+    margin-bottom: 0;
+    top: 4px;
+}
+.switch-checkbox input {
+    display: none;
+}
+.switch-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+.switch-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 0;
+    bottom: -3px;
+    background-color: #191919;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+input:checked + .switch-slider {
+   background-color:#e6bdbd;
+}
+input:checked + .switch-slider:before {
+   -webkit-transform: translateX(26px);
+   -ms-transform: translateX(26px);
+   transform: translateX(26px);
+   background-color:#b10035;
+}
+
+/* JUST FOR FRONTIFY */
+.switch-wrap {
+  min-height:40px;
+}

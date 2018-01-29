@@ -1,0 +1,13 @@
+{
+    "name": "External link",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/external-link/external-link.html"
+        ],
+        "css": [
+            "patterns/atoms/external-link/css/external-link.css"
+        ]
+    }
+}

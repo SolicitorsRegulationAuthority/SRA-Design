@@ -1,0 +1,13 @@
+{
+    "name": "Navigation toggle button",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/navigation-toggle-button/navigation-toggle-button.html"
+        ],
+        "css": [
+            "patterns/atoms/navigation-toggle-button/css/navigation-toggle-button.css"
+        ]
+    }
+}

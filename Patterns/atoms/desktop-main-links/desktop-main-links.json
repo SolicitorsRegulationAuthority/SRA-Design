@@ -1,0 +1,13 @@
+{
+    "name": "Desktop main links",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/desktop-main-links/desktop-main-links.html"
+        ],
+        "css": [
+            "patterns/atoms/desktop-main-links/css/desktop-main-links.css"
+        ]
+    }
+}

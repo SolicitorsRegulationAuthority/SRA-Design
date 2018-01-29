@@ -1,0 +1,13 @@
+{
+    "name": "Panel menu",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/panel-menu/panel-menu.html"
+        ],
+        "css": [
+            "patterns/atoms/panel-menu/css/panel-menu.css"
+        ]
+    }
+}

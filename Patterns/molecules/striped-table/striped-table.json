@@ -1,0 +1,10 @@
+{
+    "name": "Striped table",
+    "type": "molecule",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/molecules/striped-table/striped-table.html"
+        ]
+    }
+}

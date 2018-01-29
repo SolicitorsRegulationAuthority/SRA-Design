@@ -1,0 +1,13 @@
+{
+    "name": "Default grid links",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/default-grid-links/default-grid-links.html"
+        ],
+        "css": [
+            "patterns/atoms/default-grid-links/css/default-grid-links.css"
+        ]
+    }
+}

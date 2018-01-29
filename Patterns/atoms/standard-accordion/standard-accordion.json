@@ -1,0 +1,16 @@
+{
+    "name": "Standard accordion",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/standard-accordion/standard-accordion.html"
+        ],
+        "css": [
+            "patterns/atoms/standard-accordion/css/standard-accordion.css"
+        ],
+        "js": [
+            "patterns/atoms/standard-accordion/js/standard-accordion.js"
+        ]
+    }
+}

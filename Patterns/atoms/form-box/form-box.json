@@ -1,0 +1,13 @@
+{
+    "name": "Form box",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/form-box/form-box.html"
+        ],
+        "css": [
+            "patterns/atoms/form-box/css/form-box.css"
+        ]
+    }
+}

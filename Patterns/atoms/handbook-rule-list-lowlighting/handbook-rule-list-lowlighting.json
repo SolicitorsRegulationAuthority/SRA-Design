@@ -1,0 +1,13 @@
+{
+    "name": "Handbook rule list lowlighting",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/handbook-rule-list-lowlighting/handbook-rule-list-lowlighting.html"
+        ],
+        "css": [
+            "patterns/atoms/handbook-rule-list-lowlighting/css/handbook-rule-list-lowlighting.css"
+        ]
+    }
+}

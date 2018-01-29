@@ -1,0 +1,56 @@
+@media all and (min-width: 768px) {
+  .guidance-per-rule.accordion .panel-default .bracket-line {
+    display: block;
+    position: absolute;
+    width: 100%;
+    border: 1px dotted transparent;
+    transition: border-color 0.2s ease-in-out;
+    right: -100%;
+    top: 100px;
+    z-index: 0;
+  }
+}
+.guidance-per-rule.accordion .panel-default .bracket-wrap {
+  height: 2px;
+}
+@media all and (min-width: 768px) {
+  .guidance-per-rule.accordion .hb-bracket {
+    border-top: 1px dotted #b10035;
+  }
+  .guidance-per-rule.accordion .hb-bracket:before {
+    border-right: 1px dotted #b10035;
+    border-bottom: 1px dotted #b10035;
+  }
+  .guidance-per-rule.accordion .hb-bracket .bracket-line {
+    border-top: 1px dotted #b10035;
+  }
+  .guidance-per-rule.accordion .hb-bracket .bracket-line.affix,
+  .guidance-per-rule.accordion .hb-bracket .bracket-line.affix-top,
+  .guidance-per-rule.accordion .hb-bracket .bracket-line.affix-bottom {
+    position: absolute;
+  }
+  .guidance-per-rule.accordion .hb-bracket .bracket-line.affix-bottom,
+  .guidance-per-rule.accordion .hb-bracket .bracket-line.affix-bottom.affixed-bottom {
+    bottom: 50px;
+    top: initial !important;
+  }
+  .guidance-per-rule.accordion .hb-bracket .panel-title a {
+    padding-right: 50px;
+  }
+  .guidance-per-rule.accordion .hb-bracket .panel-title a:after {
+    right: 16px;
+  }
+  .guidance-per-rule.accordion .hb-bracket .panel-title a .open-guidance {
+    right: 13px;
+  }
+}
+@media all and (min-width:992px) {
+  .guidance-per-rule.accordion .hb-bracket .bracket-line.affix {
+    position: fixed !important;
+    width: 300px;
+    right: initial;
+    top: 100px;
+    left: 50%;
+    z-index: -1;
+  }
+}

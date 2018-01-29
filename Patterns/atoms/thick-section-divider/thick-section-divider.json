@@ -1,0 +1,13 @@
+{
+    "name": "Thick section divider",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/thick-section-divider/thick-section-divider.html"
+        ],
+        "css": [
+            "patterns/atoms/thick-section-divider/css/thick-section-divider.css"
+        ]
+    }
+}

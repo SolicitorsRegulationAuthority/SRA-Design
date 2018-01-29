@@ -1,0 +1,13 @@
+{
+    "name": "Bookmarked rule (or rule with notes added by user)",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/bookmarked-rule-or-rule-with-notes-added-by-user/bookmarked-rule-or-rule-with-notes-added-by-user.html"
+        ],
+        "css": [
+            "patterns/atoms/bookmarked-rule-or-rule-with-notes-added-by-user/css/bookmarked-rule-or-rule-with-notes-added-by-user.css"
+        ]
+    }
+}

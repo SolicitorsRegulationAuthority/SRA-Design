@@ -1,0 +1,35 @@
+@media all and (min-width:768px) {
+ .handbook-sidebar.out-of-view .help-inner,
+ .handbook-sidebar.out-of-view .pane-wrap {
+    opacity: 0.6;
+ }
+}
+.handbook-sidebar .level-title .icon-angle-double-up,
+.handbook-sidebar .level-title .icon-angle-double-down {
+  color: #fff;
+  font-size: 34px;
+  margin-left: 14px;
+  position: relative;
+}
+@media all and (max-width: 767px) {
+  .handbook-sidebar .level-title i {
+    display: none;
+  }
+}
+.handbook-sidebar .back-to-rule {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  transition: top 0.15s ease-in-out;
+}
+.handbook-sidebar .back-to-rule:hover,
+.handbook-sidebar .back-to-rule:focus {
+  text-decoration:none;
+}
+.handbook-sidebar .back-to-rule i:before {
+  font-size: 34px;
+  transition: font-size 0.15s ease-in-out;
+}
+.into-view .back-to-rule {
+    display:none !important;
+}

@@ -1,0 +1,7 @@
+hr.thick-divider {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 0;
+    border-color:#b10035;
+    border-bottom: 5px solid #b10035;
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Mobile main links",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/mobile-main-links/mobile-main-links.html"
+        ],
+        "css": [
+            "patterns/atoms/mobile-main-links/css/mobile-main-links.css"
+        ],
+        "js": [
+            "patterns/atoms/mobile-main-links/js/mobile-main-links.js"
+        ]
+    }
+}

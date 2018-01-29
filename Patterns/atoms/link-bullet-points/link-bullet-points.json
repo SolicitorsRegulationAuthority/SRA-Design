@@ -1,0 +1,13 @@
+{
+    "name": "Link bullet points",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/link-bullet-points/link-bullet-points.html"
+        ],
+        "css": [
+            "patterns/atoms/link-bullet-points/css/link-bullet-points.css"
+        ]
+    }
+}

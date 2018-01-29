@@ -1,0 +1,19 @@
+.link-list-block ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 23px;
+  font-size:16px;
+}
+.link-list-block ul a {
+  color: #b10035;
+  padding-bottom: 12px;
+  display: block;
+}
+.link-list-block-text ul a {
+  padding-bottom: 3px;
+  display: block;
+}
+.link-list-block-text ul span {
+  padding-bottom: 20px;
+  display: inline-block;
+}

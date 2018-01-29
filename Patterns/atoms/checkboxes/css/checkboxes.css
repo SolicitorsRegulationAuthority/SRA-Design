@@ -1,0 +1,67 @@
+.checkbox-custom {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.checkbox-custom input[type=checkbox] {
+    position: absolute;
+    margin-left: -16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    opacity: 0;
+    z-index: 1;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    top: 3px;
+}
+.checkbox-custom label {
+    min-height: 22px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 10px;
+}
+.checkbox-custom label:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 3px;
+    left: 0;
+    margin-left: -16px;
+    border: 1px solid #191919;
+    background-color: #fff;
+}
+.checkbox-custom label:after {
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    left: 2px;
+    top: 0;
+    margin-left: -20px;
+    text-align: center;
+    padding-top: 1px;
+    font-size: 12px;
+    color: #76838f;
+}
+.checkbox-custom input[type=checkbox]:checked + input[type=hidden] + label::after,
+.checkbox-custom input[type=checkbox]:checked + label::after {
+    color: #000;
+    content: '\e905';
+    font-family: 'icomoon';
+}
+.checkbox-custom input[type=checkbox]:checked + input[type=hidden] + label,
+.checkbox-custom input[type=checkbox]:checked + label {
+    font-family: 'open-sans-bold', sans-serif;
+}

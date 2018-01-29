@@ -1,0 +1,13 @@
+{
+    "name": "Blue grid links",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/blue-grid-links/blue-grid-links.html"
+        ],
+        "css": [
+            "patterns/atoms/blue-grid-links/css/blue-grid-links.css"
+        ]
+    }
+}

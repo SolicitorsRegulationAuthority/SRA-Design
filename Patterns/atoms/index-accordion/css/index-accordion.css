@@ -1,0 +1,8 @@
+.accordion.panel-group .list-no-bullets li {
+    margin-bottom: 12px;
+}
+.accordion.panel-group .list-no-bullets a {
+    color: #b10035;
+    text-decoration: underline;
+    font-size:16px;
+}

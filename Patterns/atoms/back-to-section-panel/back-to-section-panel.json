@@ -1,0 +1,16 @@
+{
+    "name": "Back-to-section panel",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/back-to-section-panel/back-to-section-panel.html"
+        ],
+        "js": [
+            "patterns/atoms/back-to-section-panel/js/back-to-section-panel.js"
+        ],
+        "css": [
+            "patterns/atoms/back-to-section-panel/css/back-to-section-panel.css"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Video with play button",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/video-with-play-button/video-with-play-button.html"
+        ],
+        "js": [
+            "patterns/atoms/video-with-play-button/js/video-with-play-button.js"
+        ],
+        "css": [
+            "patterns/atoms/video-with-play-button/css/video-with-play-button.css"
+        ]
+    }
+}

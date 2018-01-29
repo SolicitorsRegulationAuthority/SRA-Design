@@ -1,0 +1,7 @@
+/* The code below is just for Frontify */
+.example-grid .row [class^=col-] {
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color:#f2f2f2;
+  border:1px solid #ccc;
+}

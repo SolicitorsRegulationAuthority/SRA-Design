@@ -1,0 +1,13 @@
+{
+    "name": "Sidebar icon links",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/sidebar-icon-links/sidebar-icon-links.html"
+        ],
+        "css": [
+            "patterns/atoms/sidebar-icon-links/css/sidebar-icon-links.css"
+        ]
+    }
+}

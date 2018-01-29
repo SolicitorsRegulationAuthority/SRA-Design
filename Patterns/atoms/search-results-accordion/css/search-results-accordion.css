@@ -1,0 +1,71 @@
+.results-found-text {
+  margin-bottom: 30px;
+}
+.results-found-text:before {
+  content: '\e903';
+  font-family: 'icomoon';
+  display: inline-block;
+  padding-right: 8px;
+  font-size:15px;
+}
+.accordion-results.panel-group .panel-default {
+    padding-left: 15px;
+    padding-right: 10px;
+    background-color: #fff;
+    transition: background-color 0.15s ease-in-out;
+}
+.accordion-results.panel-group .panel-active {
+    background-color: #f2f2f2;
+}
+.accordion.panel-group .panel-title a:hover,
+.accordion.panel-group .panel-title a:focus {
+  text-decoration:none;
+}
+.accordion.panel-group .panel-title > a small {
+    display: block;
+    clear: both;
+    color: #000;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'open-sans', sans-serif;
+}
+.accordion.panel-group .panel-title > a span {
+   margin-right: 15px;
+   display: inline-block;
+   margin-bottom: 5px;
+}
+@media all and (min-width: 992px) {
+  .accordion.panel-group .panel-title > a span {
+    margin-right: 60px;
+  }
+}
+.accordion.panel-group .panel-title > a small {
+  display: block;
+  clear: both;
+  color: #000;
+  font-size: 15px;
+  line-height: 25px;
+}
+.accordion-results.panel-group .panel-body span {
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    font-size:16px;
+}
+.accordion-results.panel-group .panel-body span i {
+    padding-right: 12px;
+    margin-left: -28px;
+}
+.accordion-results.panel-group .panel-title .office-link {
+    float: none;
+    text-decoration: underline;
+}
+@media all and (min-width: 768px) {
+  .accordion-results.panel-group .panel-title .office-link {
+     padding-left: 3px;
+  }
+}
+.offices-hidden {
+    display: none;
+    margin-top: -10px;
+}

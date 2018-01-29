@@ -1,0 +1,13 @@
+{
+    "name": "Default table",
+    "type": "organism",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/organisms/default-table/default-table.html"
+        ],
+        "css": [
+            "patterns/organisms/default-table/css/default-table.css"
+        ]
+    }
+}

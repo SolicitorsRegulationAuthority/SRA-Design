@@ -1,0 +1,13 @@
+{
+    "name": "Global search field",
+    "type": "molecule",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/molecules/global-search-field/global-search-field.html"
+        ],
+        "css": [
+            "patterns/molecules/global-search-field/css/global-search-field.css"
+        ]
+    }
+}

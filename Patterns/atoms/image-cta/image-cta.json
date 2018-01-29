@@ -1,0 +1,13 @@
+{
+    "name": "Image CTA",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/image-cta/image-cta.html"
+        ],
+        "css": [
+            "patterns/atoms/image-cta/css/image-cta.css"
+        ]
+    }
+}

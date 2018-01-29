@@ -1,0 +1,24 @@
+#browse-menu-btn {
+    color: #fff;
+    font-family: 'open-sans-bold';
+    padding:10px 15px;
+    font-size: 15px;
+    width: 200px;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+    line-height:20px
+}
+#browse-menu-btn:hover, #browse-menu-btn:focus {
+    background: #191919;
+    color: #fff;
+}
+#browse-menu-btn .icon-bars {
+    color: #b10035;
+    padding-right: 9px;
+    font-size: 21px;
+    position: relative;
+    top: 3px;
+    pointer-events: none;
+    line-height:0;
+}

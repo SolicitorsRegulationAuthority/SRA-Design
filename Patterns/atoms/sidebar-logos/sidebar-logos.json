@@ -1,0 +1,13 @@
+{
+    "name": "Sidebar logos",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/sidebar-logos/sidebar-logos.html"
+        ],
+        "css": [
+            "patterns/atoms/sidebar-logos/css/sidebar-logos.css"
+        ]
+    }
+}

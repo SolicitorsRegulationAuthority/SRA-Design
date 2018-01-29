@@ -1,0 +1,13 @@
+{
+    "name": "Purple grid links",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/purple-grid-links/purple-grid-links.html"
+        ],
+        "css": [
+            "patterns/atoms/purple-grid-links/css/purple-grid-links.css"
+        ]
+    }
+}

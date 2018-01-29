@@ -1,0 +1,14 @@
+h2, .h2 {
+  font-size: 25px;
+  line-height: 32px;
+  margin-bottom: 25px;
+  letter-spacing:-0.03em;
+  font-family: 'open-sans-bold', sans-serif;
+  color:#191919;
+}
+@media (min-width: 768px) {
+  h2, .h2 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+}

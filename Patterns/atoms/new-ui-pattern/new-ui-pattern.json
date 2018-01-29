@@ -1,0 +1,10 @@
+{
+    "name": "New UI Pattern",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/new-ui-pattern/new-ui-pattern.html"
+        ]
+    }
+}

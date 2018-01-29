@@ -1,0 +1,13 @@
+{
+    "name": "Tabs",
+    "type": "organism",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/organisms/tabs/tabs.html"
+        ],
+        "css": [
+            "patterns/organisms/tabs/css/tabs.css"
+        ]
+    }
+}

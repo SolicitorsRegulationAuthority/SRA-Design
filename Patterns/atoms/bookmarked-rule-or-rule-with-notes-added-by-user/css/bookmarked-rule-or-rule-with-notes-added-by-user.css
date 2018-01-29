@@ -1,0 +1,13 @@
+.handbook-rules-list a > .icon-star {
+    font-size: 13px;
+    opacity: 0;
+    color: #b10035;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: font-size 0.1s ease-in-out, opacity 0.15s ease-in-out;
+}
+.handbook-rules-list a > .icon-star.active {
+    display: inline-block;
+    font-size: 18px;
+    opacity: 1;
+}

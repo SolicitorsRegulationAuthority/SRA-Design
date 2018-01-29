@@ -1,0 +1,13 @@
+{
+    "name": "Arrow buttons",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/arrow-buttons/arrow-buttons.html"
+        ],
+        "css": [
+            "patterns/atoms/arrow-buttons/css/arrow-buttons.css"
+        ]
+    }
+}

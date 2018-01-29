@@ -1,0 +1,16 @@
+{
+    "name": "Tooltipster tooltips",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/tooltipster-tooltips/tooltipster-tooltips.html"
+        ],
+        "js": [
+            "patterns/atoms/tooltipster-tooltips/js/tooltipster-tooltips.js"
+        ],
+        "css": [
+            "patterns/atoms/tooltipster-tooltips/css/tooltipster-tooltips.css"
+        ]
+    }
+}

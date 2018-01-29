@@ -1,0 +1,55 @@
+.help-inner,
+.pane-wrap{
+  opacity: 1;
+  clear: both;
+  transition: all 0.2s ease-in-out;
+}
+.help-inner * {
+  transition:opacity 0.2s ease-in-out;
+}
+.help-inner .icon-spinner {
+  opacity:0;
+}
+.hb-loading {
+    position: relative;
+}
+.hb-loading a,
+.hb-loading .rule-tags {
+  opacity:0.2;
+}
+.hb-loading .icon-spinner {
+  color: #b10035;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  animation: spin 1s infinite steps(8);
+  text-align: center;
+  font-size:48px;
+  width:62px;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}

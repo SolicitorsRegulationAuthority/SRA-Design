@@ -1,0 +1,13 @@
+@media all and (max-width: 991px) {
+ .navbar-default .navbar-header {
+  float: none;
+  margin: 0;
+ } 
+}
+@media all and (max-width: 991px) and (min-width: 768px) {
+ .navbar-default .navbar-header {
+  width: 750px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+ }
+}

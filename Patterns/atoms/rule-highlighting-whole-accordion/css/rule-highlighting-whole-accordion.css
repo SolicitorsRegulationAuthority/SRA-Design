@@ -1,0 +1,37 @@
+.guidance-per-rule.accordion .panel-default.highlight,
+.guidance-per-rule.accordion .panel-default.highlighted {
+    background: #eee;
+}
+.guidance-per-rule.accordion {
+  overflow: visible; }
+.guidance-per-rule.accordion .panel-default {
+  transition: background 0.15s ease-in-out, width 0.15s ease-in-out, padding 0.15s ease-in-out;
+  background: #fff;
+  width: 100%;
+}
+@media all and (min-width: 768px) {
+  .guidance-per-rule.accordion .panel-default {
+    padding-left: 10px;
+  }
+}
+.guidance-per-rule.accordion .panel-default * {
+  z-index: 1;
+}
+@media all and (min-width: 768px) {
+  .guidance-per-rule.accordion .panel-default:before, .guidance-per-rule.accordion .panel-default:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    border: 1px dotted transparent;
+    transition: border-color 0.2s ease-in-out;
+  }
+}
+@media all and (min-width: 768px) {
+  .guidance-per-rule.accordion .panel-default:before {
+    height: 100%;
+    right: 0px;
+    transform: translateY(-50%);
+    top: 50%;
+  }
+}

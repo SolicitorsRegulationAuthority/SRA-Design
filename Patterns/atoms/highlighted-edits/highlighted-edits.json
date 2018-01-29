@@ -1,0 +1,13 @@
+{
+    "name": "Highlighted edits",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/highlighted-edits/highlighted-edits.html"
+        ],
+        "css": [
+            "patterns/atoms/highlighted-edits/css/highlighted-edits.css"
+        ]
+    }
+}

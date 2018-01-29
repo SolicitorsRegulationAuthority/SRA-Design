@@ -1,0 +1,13 @@
+{
+    "name": "Complex list numbering",
+    "type": "organism",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/organisms/complex-list-numbering/complex-list-numbering.html"
+        ],
+        "css": [
+            "patterns/organisms/complex-list-numbering/css/complex-list-numbering.css"
+        ]
+    }
+}

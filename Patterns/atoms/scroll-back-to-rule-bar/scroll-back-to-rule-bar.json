@@ -1,0 +1,13 @@
+{
+    "name": "Scroll-back-to-rule bar",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/scroll-back-to-rule-bar/scroll-back-to-rule-bar.html"
+        ],
+        "css": [
+            "patterns/atoms/scroll-back-to-rule-bar/css/scroll-back-to-rule-bar.css"
+        ]
+    }
+}

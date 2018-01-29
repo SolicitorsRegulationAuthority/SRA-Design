@@ -1,0 +1,16 @@
+{
+    "name": "Bootstrap popover",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/bootstrap-popover/bootstrap-popover.html"
+        ],
+        "js": [
+            "patterns/atoms/bootstrap-popover/js/bootstrap-popover.js"
+        ],
+        "css": [
+            "patterns/atoms/bootstrap-popover/css/bootstrap-popover.css"
+        ]
+    }
+}

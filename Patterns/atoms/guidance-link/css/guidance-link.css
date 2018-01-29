@@ -1,0 +1,15 @@
+.open-guidance {
+    background: #b10035;
+    height: 24px;
+    width: 24px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.1s ease-in-out;
+    font-style: italic;
+    font-family: serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 24px;
+    display:block;
+}

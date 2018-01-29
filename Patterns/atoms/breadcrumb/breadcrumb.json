@@ -1,0 +1,13 @@
+{
+    "name": "Breadcrumb",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/breadcrumb/breadcrumb.html"
+        ],
+        "css": [
+            "patterns/atoms/breadcrumb/css/breadcrumb.css"
+        ]
+    }
+}

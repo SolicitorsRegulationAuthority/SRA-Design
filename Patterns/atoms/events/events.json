@@ -1,0 +1,13 @@
+{
+    "name": "Events",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/events/events.html"
+        ],
+        "css": [
+            "patterns/atoms/events/css/events.css"
+        ]
+    }
+}

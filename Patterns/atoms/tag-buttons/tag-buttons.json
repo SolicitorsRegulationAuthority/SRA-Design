@@ -1,0 +1,13 @@
+{
+    "name": "Tag buttons",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/tag-buttons/tag-buttons.html"
+        ],
+        "css": [
+            "patterns/atoms/tag-buttons/css/tag-buttons.css"
+        ]
+    }
+}

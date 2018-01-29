@@ -1,0 +1,10 @@
+{
+    "name": "Well",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/well/well.html"
+        ]
+    }
+}

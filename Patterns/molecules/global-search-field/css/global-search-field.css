@@ -1,0 +1,29 @@
+.search-box {
+  margin-top:22px;
+  margin-bottom:16px;
+}
+.search-box input[type="text"] {
+  border-left:0;
+  border-right:0;
+  border-top:0;
+  box-shadow:none;
+  border-radius:0;
+  height:34px;
+}
+.search-box input[type="text"]:focus {
+  border-color:#ccc;
+}
+.search-box .input-group-btn:last-child > .btn {
+  margin-left:0;
+}
+.search-box .btn-secondary {
+  border-bottom:2px solid #b10035;
+  border-radius:0;
+  height:34px;
+}
+.search-box .btn-secondary:hover {
+  border-color: #9a012f;
+}
+.search-box .navbar-form {
+  padding:0;
+}

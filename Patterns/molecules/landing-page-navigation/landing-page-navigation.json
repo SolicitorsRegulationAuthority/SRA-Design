@@ -1,0 +1,13 @@
+{
+    "name": "Landing page navigation",
+    "type": "molecule",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/molecules/landing-page-navigation/landing-page-navigation.html"
+        ],
+        "css": [
+            "patterns/molecules/landing-page-navigation/css/landing-page-navigation.css"
+        ]
+    }
+}

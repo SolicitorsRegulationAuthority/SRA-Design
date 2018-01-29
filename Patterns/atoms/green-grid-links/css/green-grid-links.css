@@ -1,0 +1,6 @@
+.grid-green {
+    border-color: #a3ba4d;
+}
+.grid-green .grid-link h4:before {
+    color: #a3ba4d;
+}

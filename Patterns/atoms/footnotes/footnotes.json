@@ -1,0 +1,10 @@
+{
+    "name": "Footnotes",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/footnotes/footnotes.html"
+        ]
+    }
+}

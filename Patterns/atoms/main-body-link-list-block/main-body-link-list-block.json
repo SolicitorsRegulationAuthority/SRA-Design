@@ -1,0 +1,13 @@
+{
+    "name": "Main body link list block",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/main-body-link-list-block/main-body-link-list-block.html"
+        ],
+        "css": [
+            "patterns/atoms/main-body-link-list-block/css/main-body-link-list-block.css"
+        ]
+    }
+}

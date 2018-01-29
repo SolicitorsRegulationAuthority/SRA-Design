@@ -1,0 +1,40 @@
+select {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #eee;
+  padding: 10px 12px;
+  font-family: 'open-sans-bold';
+  font-size: 14px;
+}
+select:focus {
+  outline:none;
+}
+
+.custom-select select::-ms-expand {
+  display: none;
+}
+
+.custom-select {
+  position: relative;
+  background: #eee;
+  border-radius: 6px;
+  display:inline-block;
+}
+.custom-select select {
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  padding-right:35px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.custom-select .icon-select-arrows:before {
+  position: absolute;
+  top: 14px;
+  right: 8px;
+  font-size: 14px;
+  z-index: 0;
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Search results accordion",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/search-results-accordion/search-results-accordion.html"
+        ],
+        "css": [
+            "patterns/atoms/search-results-accordion/css/search-results-accordion.css"
+        ],
+        "js": [
+            "patterns/atoms/search-results-accordion/js/search-results-accordion.js"
+        ]
+    }
+}

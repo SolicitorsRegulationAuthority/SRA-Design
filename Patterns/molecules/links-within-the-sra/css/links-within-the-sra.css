@@ -1,0 +1,13 @@
+p a {
+  color:#b10035;
+  text-decoration:underline;
+}
+
+a {
+  color:#b10035;
+}
+
+p a:hover,
+p a:focus {
+  color:#b10035;
+}

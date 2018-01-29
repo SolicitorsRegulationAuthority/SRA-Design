@@ -1,0 +1,24 @@
+.side-menu {
+    padding:0;
+}
+.side-menu li {
+    line-height: 22px;
+    margin-bottom: 0;
+    list-style: none;
+    font-family: 'open-sans', sans-serif;
+    font-size: 15px;
+}
+.side-menu li + li {
+    border-top: 1px solid #cdcdcd;
+}
+.side-menu li a {
+    background-color: #b10035;
+    color:#fff;
+    display: block;
+    padding: 12px 14px;
+}
+.side-menu li a:hover,
+.side-menu li a:focus {
+    text-decoration:none;
+    background-color:#9a012f;
+}

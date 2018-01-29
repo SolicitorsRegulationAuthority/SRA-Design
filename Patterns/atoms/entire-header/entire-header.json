@@ -1,0 +1,13 @@
+{
+    "name": "Entire header",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/entire-header/entire-header.html"
+        ],
+        "css": [
+            "patterns/atoms/entire-header/css/entire-header.css"
+        ]
+    }
+}

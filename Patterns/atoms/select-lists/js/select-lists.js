@@ -1,0 +1,1 @@
+$('.custom-select').prepend('<i class="icon icon-select-arrows"></i>');

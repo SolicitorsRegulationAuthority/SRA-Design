@@ -1,0 +1,13 @@
+{
+    "name": "H3",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/h3/h3.html"
+        ],
+        "css": [
+            "patterns/atoms/h3/css/h3.css"
+        ]
+    }
+}

@@ -1,0 +1,4 @@
+.two-digit {width:4em;display:inline-block;margin-right:14px;}
+.four-digit {width:6em;display:inline-block; margin-right:14px;}
+.form-group .two-digit > input, .form-group .four-digit > input {width:100%}
+

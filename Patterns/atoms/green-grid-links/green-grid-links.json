@@ -1,0 +1,13 @@
+{
+    "name": "Green grid links",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/green-grid-links/green-grid-links.html"
+        ],
+        "css": [
+            "patterns/atoms/green-grid-links/css/green-grid-links.css"
+        ]
+    }
+}

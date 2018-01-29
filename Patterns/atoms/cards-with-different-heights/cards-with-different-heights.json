@@ -1,0 +1,16 @@
+{
+    "name": "Cards with different heights",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/cards-with-different-heights/cards-with-different-heights.html"
+        ],
+        "css": [
+            "patterns/atoms/cards-with-different-heights/css/cards-with-different-heights.css"
+        ],
+        "js": [
+            "patterns/atoms/cards-with-different-heights/js/cards-with-different-heights.js"
+        ]
+    }
+}

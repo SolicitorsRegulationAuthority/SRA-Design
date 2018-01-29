@@ -1,0 +1,10 @@
+{
+    "name": "Simple footer",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/simple-footer/simple-footer.html"
+        ]
+    }
+}

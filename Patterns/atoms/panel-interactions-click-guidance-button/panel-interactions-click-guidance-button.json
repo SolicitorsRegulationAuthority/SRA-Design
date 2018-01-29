@@ -1,0 +1,16 @@
+{
+    "name": "Panel interactions (click guidance button)",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/panel-interactions-click-guidance-button/panel-interactions-click-guidance-button.html"
+        ],
+        "css": [
+            "patterns/atoms/panel-interactions-click-guidance-button/css/panel-interactions-click-guidance-button.css"
+        ],
+        "js": [
+            "patterns/atoms/panel-interactions-click-guidance-button/js/panel-interactions-click-guidance-button.js"
+        ]
+    }
+}

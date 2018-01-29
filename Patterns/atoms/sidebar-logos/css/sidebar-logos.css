@@ -1,0 +1,11 @@
+.sidebar-logos {
+    display: table;
+}
+.sidebar-logos .col-xs-4 {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+.sidebar-logos img {
+    width: 100%;
+}

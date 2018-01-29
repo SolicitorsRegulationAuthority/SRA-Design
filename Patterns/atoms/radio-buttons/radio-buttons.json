@@ -1,0 +1,13 @@
+{
+    "name": "Radio buttons",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/radio-buttons/radio-buttons.html"
+        ],
+        "css": [
+            "patterns/atoms/radio-buttons/css/radio-buttons.css"
+        ]
+    }
+}

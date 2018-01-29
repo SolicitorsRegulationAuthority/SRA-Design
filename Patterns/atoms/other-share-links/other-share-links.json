@@ -1,0 +1,16 @@
+{
+    "name": "Other share links",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/other-share-links/other-share-links.html"
+        ],
+        "js": [
+            "patterns/atoms/other-share-links/js/other-share-links.js"
+        ],
+        "css": [
+            "patterns/atoms/other-share-links/css/other-share-links.css"
+        ]
+    }
+}

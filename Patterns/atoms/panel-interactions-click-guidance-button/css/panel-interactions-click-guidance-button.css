@@ -1,0 +1,48 @@
+.handbook-wrap {
+    position: relative;
+    left: 0;
+    transition: left 0.4s ease-in-out;
+    overflow: hidden;
+}
+.sidebar-out {
+    left: 0;
+    transition: all 0.4s ease-in-out;
+}
+.sidebar-in .handbook-sidebar {
+    right: 0;
+    z-index: 10;
+}
+.handbook-sidebar {
+  position: fixed;
+  height: 100%;
+  padding: 0;
+  top: 0;
+  z-index: 2;
+  transition: all 0.4s ease-in-out;
+}
+@media all and (max-width: 767px) {
+  .handbook-sidebar {
+   right: -100%;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    z-index:5 !important;
+  } 
+}
+@media all and (min-width: 768px) {
+  .handbook-sidebar {
+    right: -50%;
+  }
+  .sidebar-in .handbook-sidebar {
+    z-index: 5;
+ }
+}
+.secondary-pane {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: #f2f2f2;
+    width: 100%;
+    left: 100%;
+    transition: left 0.4s ease-in-out;
+    overflow-y: auto;
+}

@@ -1,0 +1,20 @@
+body {
+  font-size:16px;
+}
+p {
+  font-size: 16px;
+  line-height: 25px;
+}
+.lead {
+  font-size:20px;
+  line-height:31px;
+}
+.article p {
+  margin-bottom:20px;
+}
+.article .lead {
+  margin-bottom:30px;
+}
+strong, b {
+  font-family: 'open-sans-bold', sans-serif;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Inline inputs",
+    "type": "organism",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/organisms/inline-inputs/inline-inputs.html"
+        ],
+        "css": [
+            "patterns/organisms/inline-inputs/css/inline-inputs.css"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Handbook rule list highlighting",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/handbook-rule-list-highlighting/handbook-rule-list-highlighting.html"
+        ],
+        "css": [
+            "patterns/atoms/handbook-rule-list-highlighting/css/handbook-rule-list-highlighting.css"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Grey accordion",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/grey-accordion/grey-accordion.html"
+        ],
+        "css": [
+            "patterns/atoms/grey-accordion/css/grey-accordion.css"
+        ]
+    }
+}

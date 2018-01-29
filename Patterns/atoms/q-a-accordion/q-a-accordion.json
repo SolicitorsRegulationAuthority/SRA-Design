@@ -1,0 +1,16 @@
+{
+    "name": "Q&A accordion",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/q-a-accordion/q-a-accordion.html"
+        ],
+        "css": [
+            "patterns/atoms/q-a-accordion/css/q-a-accordion.css"
+        ],
+        "js": [
+            "patterns/atoms/q-a-accordion/js/q-a-accordion.js"
+        ]
+    }
+}

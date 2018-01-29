@@ -1,0 +1,13 @@
+{
+    "name": "Fat Footer",
+    "type": "organism",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/organisms/fat-footer/fat-footer.html"
+        ],
+        "css": [
+            "patterns/organisms/fat-footer/css/fat-footer.css"
+        ]
+    }
+}

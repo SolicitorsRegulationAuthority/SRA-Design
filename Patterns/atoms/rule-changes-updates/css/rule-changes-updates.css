@@ -1,0 +1,23 @@
+.more-updates {
+    color: #b10035;
+    text-decoration: underline;
+    padding-bottom: 12px;
+    display:block;
+}
+.more-updates i {
+    display: inline-block;
+    margin-left: 10px;
+}
+.show-edits {
+    cursor: pointer;
+    color: #b10035;
+    text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.hide-edits {
+    color: #b10035;
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+}

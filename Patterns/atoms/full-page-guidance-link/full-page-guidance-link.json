@@ -1,0 +1,13 @@
+{
+    "name": "Full page guidance link",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/full-page-guidance-link/full-page-guidance-link.html"
+        ],
+        "css": [
+            "patterns/atoms/full-page-guidance-link/css/full-page-guidance-link.css"
+        ]
+    }
+}

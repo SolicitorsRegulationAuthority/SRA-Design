@@ -1,0 +1,13 @@
+{
+    "name": "Standard right-hand navigation",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/standard-right-hand-navigation/standard-right-hand-navigation.html"
+        ],
+        "css": [
+            "patterns/atoms/standard-right-hand-navigation/css/standard-right-hand-navigation.css"
+        ]
+    }
+}

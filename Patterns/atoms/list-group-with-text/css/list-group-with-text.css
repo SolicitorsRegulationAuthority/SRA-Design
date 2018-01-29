@@ -1,0 +1,32 @@
+.list-group .list-group-item {
+  border-color:#cecece;
+  border-left:0;
+  border-right:0;
+  border-radius:0;
+  background-color:transparent;
+  color:#191919;
+  padding-left:22px;
+}
+.list-group .list-group-item span {
+  font-family: 'open-sans-bold', sans-serif;
+  font-size:15px;
+  line-height:19px;
+  display:inline-block;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.list-group .list-group-item span:before {
+  content: '\e90c';
+  font-family: 'icomoon';
+  color: #b10035;
+  font-size: 13px;
+  margin-left: -21px;
+  padding-right: 12px;
+}
+.list-group .list-group-item:hover, .list-group .list-group-item:focus {
+    background-color: transparent;
+    color:#b10035;
+}
+.list-group .list-group-item:hover p, .list-group .list-group-item:focus p {
+    color: #191919;
+}

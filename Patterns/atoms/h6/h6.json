@@ -1,0 +1,13 @@
+{
+    "name": "H6",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/h6/h6.html"
+        ],
+        "css": [
+            "patterns/atoms/h6/css/h6.css"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Switch checkbox",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/switch-checkbox/switch-checkbox.html"
+        ],
+        "css": [
+            "patterns/atoms/switch-checkbox/css/switch-checkbox.css"
+        ]
+    }
+}

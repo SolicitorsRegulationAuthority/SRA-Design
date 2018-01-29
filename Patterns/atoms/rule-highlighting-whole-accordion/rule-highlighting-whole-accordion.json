@@ -1,0 +1,16 @@
+{
+    "name": "Rule highlighting - whole accordion",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/rule-highlighting-whole-accordion/rule-highlighting-whole-accordion.html"
+        ],
+        "css": [
+            "patterns/atoms/rule-highlighting-whole-accordion/css/rule-highlighting-whole-accordion.css"
+        ],
+        "js": [
+            "patterns/atoms/rule-highlighting-whole-accordion/js/rule-highlighting-whole-accordion.js"
+        ]
+    }
+}

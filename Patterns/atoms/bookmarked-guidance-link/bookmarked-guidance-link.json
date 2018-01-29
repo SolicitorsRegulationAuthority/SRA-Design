@@ -1,0 +1,13 @@
+{
+    "name": "Bookmarked guidance link",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/bookmarked-guidance-link/bookmarked-guidance-link.html"
+        ],
+        "css": [
+            "patterns/atoms/bookmarked-guidance-link/css/bookmarked-guidance-link.css"
+        ]
+    }
+}

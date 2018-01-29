@@ -1,0 +1,13 @@
+{
+    "name": "Error notice",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/error-notice/error-notice.html"
+        ],
+        "css": [
+            "patterns/atoms/error-notice/css/error-notice.css"
+        ]
+    }
+}

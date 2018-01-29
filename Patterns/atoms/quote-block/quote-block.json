@@ -1,0 +1,13 @@
+{
+    "name": "Quote block",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/quote-block/quote-block.html"
+        ],
+        "css": [
+            "patterns/atoms/quote-block/css/quote-block.css"
+        ]
+    }
+}

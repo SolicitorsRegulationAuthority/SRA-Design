@@ -1,0 +1,16 @@
+{
+    "name": "Select lists",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/select-lists/select-lists.html"
+        ],
+        "js": [
+            "patterns/atoms/select-lists/js/select-lists.js"
+        ],
+        "css": [
+            "patterns/atoms/select-lists/css/select-lists.css"
+        ]
+    }
+}

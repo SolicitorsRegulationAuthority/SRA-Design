@@ -1,0 +1,27 @@
+.card-video {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+@media (min-width: 992px) {
+  .card-video {
+    height: 362px;
+  }
+}
+@media (min-width: 1200px) {
+  .card-video {
+    height: 400px;
+  }
+}
+.card-video h4 {
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+.card-video small {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.card-video p {
+  margin-top: 0;
+}

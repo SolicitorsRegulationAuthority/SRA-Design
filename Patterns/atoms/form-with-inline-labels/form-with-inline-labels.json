@@ -1,0 +1,13 @@
+{
+    "name": "Form with inline labels",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/form-with-inline-labels/form-with-inline-labels.html"
+        ],
+        "css": [
+            "patterns/atoms/form-with-inline-labels/css/form-with-inline-labels.css"
+        ]
+    }
+}

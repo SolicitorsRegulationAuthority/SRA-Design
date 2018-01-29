@@ -1,0 +1,14 @@
+.bookmarked .open-guidance {
+  background: #b10035;
+  font-size: 0;
+  color: #b10035;
+}
+.bookmarked .open-guidance:before {
+  content: '\e91b';
+  font-family: 'icomoon';
+  display: inline-block;
+  color: white;
+  font-size: 13px;
+  padding-top: 1px;
+  font-style: normal;
+}

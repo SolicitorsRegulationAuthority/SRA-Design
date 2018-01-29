@@ -1,0 +1,58 @@
+.content-box {
+  margin-bottom: 20px;
+  border: 1px solid #cdcdcd;
+  padding: 35px 30px;
+}
+@media all and (min-width:992px) {
+  .content-box {
+    padding: 50px 40px;
+  }
+}
+.content-box form {
+  text-align: center;
+}
+.content-box label {
+  display: block;
+  line-height: 28px;
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'open-sans-bold', sans-serif;
+}
+.content-box .dropdown {
+  float: left;
+  width: 100%;
+  margin-bottom: 25px;
+}
+@media all and (min-width:992px) {
+  .content-box label {
+    margin-right: 20px;
+    float: left;
+    width: 35%;
+    text-align: right;
+  }
+  .content-box .form-help {
+    width: 50%;
+    float: left;
+  }
+  .content-box .dropdown {
+    width: 50%;
+    margin-bottom: 15px;
+  }
+}
+.content-box .form-help small {
+  display: block;
+  margin-bottom: 20px;
+  text-align: left;
+  line-height: 24px;
+  font-size:14px;
+}
+.content-box .form-help .form-control {
+  width: 100%;
+  float: none;
+  margin-bottom: 10px;
+}
+.content-box form .btn-submit {
+    display: inline-block;
+    margin-top: 20px;
+}

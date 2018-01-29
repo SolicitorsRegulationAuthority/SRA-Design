@@ -1,0 +1,13 @@
+{
+    "name": "Text bullet points",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/text-bullet-points/text-bullet-points.html"
+        ],
+        "css": [
+            "patterns/atoms/text-bullet-points/css/text-bullet-points.css"
+        ]
+    }
+}

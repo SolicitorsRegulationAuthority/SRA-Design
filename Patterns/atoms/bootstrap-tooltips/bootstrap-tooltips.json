@@ -1,0 +1,13 @@
+{
+    "name": "Bootstrap tooltips",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/bootstrap-tooltips/bootstrap-tooltips.html"
+        ],
+        "js": [
+            "patterns/atoms/bootstrap-tooltips/js/bootstrap-tooltips.js"
+        ]
+    }
+}

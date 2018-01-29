@@ -1,0 +1,22 @@
+.article ul {
+  margin-bottom:30px;
+  padding-left:0;
+  font-size:16px;
+}
+
+.article ul li {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 12px;
+  padding-left: 19px;
+}
+
+.article ul li:before {
+  content: "\002022";
+  color: #b10035;
+  padding-right: 10px;
+  font-size: 22px;
+  position: relative;
+  margin-left: -19px;
+}

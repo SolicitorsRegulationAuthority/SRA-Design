@@ -1,0 +1,10 @@
+.quote-block {
+  border-left: 5px solid #b10035;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.article .quote-block {
+  margin-bottom:35px;
+}

@@ -1,0 +1,20 @@
+.second-level-menu {
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom:30px;
+  padding-top:10px;
+  padding-bottom:20px;
+}
+.second-level-menu a {
+  display: block;
+  font-size:18px;
+  line-height:25px;
+  color: #b10035;
+  font-weight:700;
+  margin-bottom:6px;
+  font-family:'open-sans-bold';
+}
+.second-level-menu p {
+  font-size:15px;
+  line-height:21px;
+  margin-bottom:20px;
+}

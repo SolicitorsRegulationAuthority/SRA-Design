@@ -1,0 +1,13 @@
+{
+    "name": "Rule accordion",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/rule-accordion/rule-accordion.html"
+        ],
+        "css": [
+            "patterns/atoms/rule-accordion/css/rule-accordion.css"
+        ]
+    }
+}

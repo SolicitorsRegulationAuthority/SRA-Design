@@ -1,0 +1,16 @@
+{
+    "name": "Sticky header (mobile only)",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/sticky-header-mobile-only/sticky-header-mobile-only.html"
+        ],
+        "js": [
+            "patterns/atoms/sticky-header-mobile-only/js/sticky-header-mobile-only.js"
+        ],
+        "css": [
+            "patterns/atoms/sticky-header-mobile-only/css/sticky-header-mobile-only.css"
+        ]
+    }
+}

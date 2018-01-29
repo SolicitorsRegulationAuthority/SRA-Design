@@ -1,0 +1,13 @@
+{
+    "name": "Article headers",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/article-headers/article-headers.html"
+        ],
+        "css": [
+            "patterns/atoms/article-headers/css/article-headers.css"
+        ]
+    }
+}

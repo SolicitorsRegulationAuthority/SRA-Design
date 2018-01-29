@@ -1,0 +1,13 @@
+{
+    "name": "Document link",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/document-link/document-link.html"
+        ],
+        "css": [
+            "patterns/atoms/document-link/css/document-link.css"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+.external-link:after {
+    content: '\e904';
+    font-family: 'icomoon';
+    margin-left: 8px;
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 14px;
+}

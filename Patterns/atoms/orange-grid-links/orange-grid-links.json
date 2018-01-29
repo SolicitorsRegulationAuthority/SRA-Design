@@ -1,0 +1,13 @@
+{
+    "name": "Orange grid links",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/orange-grid-links/orange-grid-links.html"
+        ],
+        "css": [
+            "patterns/atoms/orange-grid-links/css/orange-grid-links.css"
+        ]
+    }
+}

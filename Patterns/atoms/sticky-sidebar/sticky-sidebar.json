@@ -1,0 +1,16 @@
+{
+    "name": "Sticky sidebar",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/sticky-sidebar/sticky-sidebar.html"
+        ],
+        "js": [
+            "patterns/atoms/sticky-sidebar/js/sticky-sidebar.js"
+        ],
+        "css": [
+            "patterns/atoms/sticky-sidebar/css/sticky-sidebar.css"
+        ]
+    }
+}

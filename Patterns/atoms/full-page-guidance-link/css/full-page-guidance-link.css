@@ -1,0 +1,16 @@
+.handbook-wrap .page-header .hb-page-info {
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+.handbook-wrap .page-header .hb-page-info i {
+    margin-left: 0;
+    margin-right: 8px;
+    top: 0;
+}
+.handbook-wrap .page-header .open-guidance {
+    display: inline;
+    padding: 1px 9px;
+    margin-left: 20px;
+    position: relative;
+    top: -7px;
+}

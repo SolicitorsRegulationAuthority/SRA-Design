@@ -1,0 +1,20 @@
+.pane-wrap {
+  padding: 20px;
+  clear: both;
+}
+.pane-wrap h5 {
+  margin-top: 0;
+}
+.pane-wrap h4 {
+  margin-top: 22px;
+  margin-bottom: 15px;
+}
+.pane-wrap a {
+  padding-right: 5px;
+}
+.pane-wrap a strong {
+  text-decoration: underline;
+  color: #b10035;
+  display: inline-block;
+  margin-bottom: 5px;
+}

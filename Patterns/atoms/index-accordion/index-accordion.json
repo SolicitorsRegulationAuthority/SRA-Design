@@ -1,0 +1,13 @@
+{
+    "name": "Index accordion",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/index-accordion/index-accordion.html"
+        ],
+        "css": [
+            "patterns/atoms/index-accordion/css/index-accordion.css"
+        ]
+    }
+}

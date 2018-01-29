@@ -1,0 +1,68 @@
+.popover.bottom {
+  text-align: center;
+  margin: 0 0 0 0;
+  margin-top: 22px;
+  padding: 0;
+  border-color: #ddd;
+  border-radius: 6px !important;
+  width: 290px;
+  max-width: 290px;
+}
+@media (min-width: 768px) {
+  .popover.bottom {
+    width: 440px;
+    max-width: 440px;
+  }
+}
+.popover.bottom .modal-title {
+  margin-top: 0;
+  color: #fff;
+}
+.popover.bottom .popover-content {
+  line-height: 24px;
+  font-size: 15px;
+  padding: 0;
+  border-radius: 0 0 6px 6px;
+}
+.popover.bottom .pop-body {
+  padding: 15px 20px 20px 20px;
+}
+.popover.bottom .popover-title {
+  background: #b10035;
+  padding: 15px 20px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0;
+  border-radius: 6px 6px 0 0;
+}
+.popover.bottom .pop-footer {
+  background: #f2f2f2;
+  text-align: center;
+  padding: 15px 20px 20px 20px;
+  border-radius: 0 0 6px 6px;
+}
+.popover.bottom .pop-footer span {
+  color: #b10035;
+  text-decoration: underline;
+  font-family: 'open-sans-bold';
+  cursor: pointer;
+}
+.popover.bottom .pop-footer span:before {
+  content: '\e911';
+  display: inline-block;
+  padding-right: 8px;
+  font-family: 'icomoon';
+}
+.popover.bottom .arrow:after {
+  border-bottom-color: #b10035;
+}
+.popover-link {
+  cursor:pointer;
+  border-bottom: 1px dotted #b10035;
+  text-decoration:none;
+  font-style:italic;
+}
+.popover-link:hover,
+.popover-link:focus {
+  text-decoration:none;
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Decision results",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/decision-results/decision-results.html"
+        ],
+        "css": [
+            "patterns/atoms/decision-results/css/decision-results.css"
+        ],
+        "js": [
+            "patterns/atoms/decision-results/js/decision-results.js"
+        ]
+    }
+}

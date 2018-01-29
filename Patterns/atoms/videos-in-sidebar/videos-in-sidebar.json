@@ -1,0 +1,16 @@
+{
+    "name": "Videos in sidebar",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/videos-in-sidebar/videos-in-sidebar.html"
+        ],
+        "css": [
+            "patterns/atoms/videos-in-sidebar/css/videos-in-sidebar.css"
+        ],
+        "js": [
+            "patterns/atoms/videos-in-sidebar/js/videos-in-sidebar.js"
+        ]
+    }
+}

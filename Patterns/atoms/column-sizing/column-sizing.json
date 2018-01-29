@@ -1,0 +1,13 @@
+{
+    "name": "Column sizing",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/column-sizing/column-sizing.html"
+        ],
+        "css": [
+            "patterns/atoms/column-sizing/css/column-sizing.css"
+        ]
+    }
+}

@@ -1,0 +1,99 @@
+.handbook-search {
+    background: #b10035;
+    padding: 45px 0;
+}
+@media all and (max-width:767px) {
+  .handbook-search {
+    margin-top:-20px;
+    border-top:1px solid #fff;
+  }
+}
+.handbook-search h1, .handbook-search .lead, .handbook-search a {
+    color: #fff;
+}
+.handbook-search h1 {
+    margin-top: 0;
+}
+.handbook-search a {
+    text-decoration: underline;
+}
+.handbook-search .nav-justified {
+    margin: 0;
+    width: 100%;
+}
+.handbook-search form {
+    margin-bottom: 20px;
+    position: relative;
+}
+.handbook-search .nav-justified .input-group-btn {
+    width: 1%;
+}
+.handbook-search .btn-toggle-wrap {
+    vertical-align: top;
+}
+.handbook-search .input-group .dropdown-menu {
+  min-width:250px;
+}
+.handbook-search .input-group .dropdown-menu a {
+  text-decoration: none;
+  cursor:pointer;
+}
+.handbook-search .input-group .dropdown-menu a:hover,
+.handbook-search .input-group .dropdown-menu a:focus {
+  text-decoration: underline;
+  background:transparent;
+}
+@media all and (max-width:767px) {
+  .handbook-search .input-group .dropdown-menu {
+    position:absolute;
+    float:left;
+    margin-top:2px;
+    background-color:#fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  }
+}
+.handbook-search .input-group .form-control {
+    border-radius: 0;
+    border: 0;
+    height: 45px;
+    background: #fff;
+    padding-left: 15px;
+    margin: 0px !important;
+}
+.handbook-search .input-group .btn {
+    border-radius: 0;
+    border: 0;
+    height: 46px;
+    padding: 12px 18px;
+    background-color: #000;
+    color: #fff;
+}
+.handbook-search .btn.dropdown-toggle {
+    background-color: #eaeaea;
+    color: #000;
+    border: 0;
+    border-right: 1px solid #e6e6e6;
+    border-radius: 0;
+    height: 45px;
+    font-family: 'open-sans-bold', sans-serif;
+    padding: 10px 30px 10px 15px;
+}
+.handbook-search .btn.dropdown-toggle:after {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+.handbook-search .btn-toggle-wrap {
+  vertical-align:top;
+}

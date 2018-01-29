@@ -1,0 +1,16 @@
+{
+    "name": "Main search area",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/main-search-area/main-search-area.html"
+        ],
+        "css": [
+            "patterns/atoms/main-search-area/css/main-search-area.css"
+        ],
+        "js": [
+            "patterns/atoms/main-search-area/js/main-search-area.js"
+        ]
+    }
+}

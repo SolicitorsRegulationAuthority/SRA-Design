@@ -1,0 +1,9 @@
+.pane-wrap .form-control {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 0;
+    background: #fff;
+}
+.pane-wrap form .btn {
+    float: right;
+}

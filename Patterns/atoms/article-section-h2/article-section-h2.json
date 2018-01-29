@@ -1,0 +1,13 @@
+{
+    "name": "Article section h2",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/article-section-h2/article-section-h2.html"
+        ],
+        "css": [
+            "patterns/atoms/article-section-h2/css/article-section-h2.css"
+        ]
+    }
+}

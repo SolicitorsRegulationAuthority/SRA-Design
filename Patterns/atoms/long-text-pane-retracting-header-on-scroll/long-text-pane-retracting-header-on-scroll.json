@@ -1,0 +1,16 @@
+{
+    "name": "Long text pane (retracting header on scroll)",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/long-text-pane-retracting-header-on-scroll/long-text-pane-retracting-header-on-scroll.html"
+        ],
+        "js": [
+            "patterns/atoms/long-text-pane-retracting-header-on-scroll/js/long-text-pane-retracting-header-on-scroll.js"
+        ],
+        "css": [
+            "patterns/atoms/long-text-pane-retracting-header-on-scroll/css/long-text-pane-retracting-header-on-scroll.css"
+        ]
+    }
+}

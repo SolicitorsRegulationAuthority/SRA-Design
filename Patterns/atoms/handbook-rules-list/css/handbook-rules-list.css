@@ -1,0 +1,68 @@
+.handbook-rules-list {
+    margin-bottom: 30px;
+    padding-top: 0;
+}
+@media all and (max-width: 767px) {
+  .handbook-rules-list a {
+    font-size: 17px;
+  }
+}
+.handbook-rules-list a > .fa-star {
+  font-size: 13px;
+  opacity: 0;
+  color: #b10035;
+  margin-left: 10px;
+  text-decoration: none;
+  transition: font-size 0.1s ease-in-out, opacity 0.15s ease-in-out;
+}
+.handbook-rules-list a > .fa-star.active {
+  display: inline-block;
+  font-size: 18px;
+  opacity: 1;
+}
+.handbook-rules-list p {
+  font-size: 15px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+@media all and (min-width: 768px) {
+  .handbook-rules-list .col-sm-4 {
+    margin: 0 6px 5px 6px;
+    min-height: 170px;
+    width: calc(33.333% - 12px);
+    padding: 0;
+  }
+}
+@media all and (min-width: 992px) {
+  .handbook-rules-list .col-sm-4 {
+    min-height: 150px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .handbook-rules-list .col-sm-4 {
+    min-height: 125px;
+  }
+}
+.handbook-rules-list .col-sm-4 * {
+  transition: all 0.1s ease-in-out;
+}
+.handbook-rules-list .col-sm-4 > a,
+.handbook-rules-list .col-sm-4 p,
+.handbook-rules-list .col-sm-4 small {
+  display: block;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+.handbook-rules-list .col-sm-4 > a {
+  display: block;
+  font-size: 18px;
+  line-height: 25px;
+  color: #b10035;
+  font-family: 'open-sans-bold';
+  padding-bottom: 6px;
+  padding-top: 14px;
+}
+.handbook-rules-list .col-sm-4 p {
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}

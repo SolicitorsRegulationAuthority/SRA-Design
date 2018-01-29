@@ -1,0 +1,16 @@
+{
+    "name": "Back to top button",
+    "type": "molecule",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/molecules/back-to-top-button/back-to-top-button.html"
+        ],
+        "css": [
+            "patterns/molecules/back-to-top-button/css/back-to-top-button.css"
+        ],
+        "js": [
+            "patterns/molecules/back-to-top-button/js/back-to-top-button.js"
+        ]
+    }
+}

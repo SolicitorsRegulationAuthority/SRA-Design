@@ -1,0 +1,19 @@
+.handbook-rules-list .col-sm-4 .section-date,
+.handbook-rules-list .col-sm-4 .section-versions,
+.handbook-rules-list .col-sm-4 .section-archived {
+  display: none; /* changed once user filters */
+  font-size: 13px;
+  position: relative;
+  padding-bottom: 10px;
+}
+.handbook-rules-list .col-sm-4 .section-versions {
+  text-decoration: underline;
+  cursor: pointer;
+  padding-bottom: 18px;
+}
+.handbook-rules-list .col-sm-4 .section-versions a {
+  color: #b10035;
+}
+.handbook-rules-list .col-sm-4 .section-archived {
+  padding-bottom: 15px;
+}

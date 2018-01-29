@@ -1,0 +1,13 @@
+{
+    "name": "Landing page list blocks",
+    "type": "organism",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/organisms/landing-page-list-blocks/landing-page-list-blocks.html"
+        ],
+        "css": [
+            "patterns/organisms/landing-page-list-blocks/css/landing-page-list-blocks.css"
+        ]
+    }
+}

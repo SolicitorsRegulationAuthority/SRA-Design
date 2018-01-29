@@ -1,0 +1,13 @@
+{
+    "name": "List group with text",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/list-group-with-text/list-group-with-text.html"
+        ],
+        "css": [
+            "patterns/atoms/list-group-with-text/css/list-group-with-text.css"
+        ]
+    }
+}

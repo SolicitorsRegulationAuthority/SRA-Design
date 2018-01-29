@@ -1,0 +1,13 @@
+{
+    "name": "Record check results",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/record-check-results/record-check-results.html"
+        ],
+        "css": [
+            "patterns/atoms/record-check-results/css/record-check-results.css"
+        ]
+    }
+}

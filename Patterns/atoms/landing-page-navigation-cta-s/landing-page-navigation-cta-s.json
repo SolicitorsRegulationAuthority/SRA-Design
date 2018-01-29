@@ -1,0 +1,10 @@
+{
+    "name": "Landing Page Navigation - CTA's",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/landing-page-navigation-cta-s/landing-page-navigation-cta-s.html"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Small alert",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/small-alert/small-alert.html"
+        ],
+        "css": [
+            "patterns/atoms/small-alert/css/small-alert.css"
+        ]
+    }
+}

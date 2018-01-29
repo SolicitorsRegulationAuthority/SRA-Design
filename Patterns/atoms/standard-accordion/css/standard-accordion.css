@@ -1,0 +1,82 @@
+.open-all {
+  display: block;
+  color: #b10035;
+  margin-bottom: 12px;
+  font-size: 13px;
+  text-decoration: underline;
+  text-align: right;
+}
+.open-all:hover,
+.open-all:focus {
+  color:#b10035;
+}
+
+.accordion.panel-group {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.accordion.panel-group .panel-heading {
+  background-color: transparent;
+  padding:0;
+}
+.accordion.panel-group .panel {
+  border-left: 0;
+  border-right: 0;
+  box-shadow: none;
+  border-radius: 0;
+}
+.accordion.panel-group .panel .panel-body {
+  border: 0;
+  padding-left: 0;
+  padding-top: 0;
+}
+.accordion.panel-group .panel .panel-body h4 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.accordion.panel-group .panel-title {
+  font-size: 21px;
+  line-height: 30px;
+  clear: both;
+  overflow: hidden;
+  position: relative;
+}
+.accordion.panel-group .panel-title > a {
+  clear: both;
+  overflow: hidden;
+  display: inline-block;
+  padding: 15px 40px 15px 0;
+  color: #b10035;
+  width:100%;
+}
+.accordion.panel-group .panel-title a:after {
+  content: '\e90f';
+  font-family: 'icomoon';
+  color: #b10035;
+  float: right;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.accordion.panel-group .panel-title a.collapsed:after {
+   content: '\e90e';
+}
+.accordion.panel-group .panel-title a:hover:after, .accordion.panel-group .panel-title a:focus:after {
+   text-decoration: underline;
+}
+.accordion.panel-group .panel-title a span {
+   margin-right: 60px;
+   display: inline-block;
+}
+.accordion.panel-group .panel-default .panel-title a:hover:after, .accordion.panel-group .panel-default .panel-title a:focus:after {
+    text-decoration: none;
+}
+.accordion.panel-group .panel + .panel {
+    margin-top: -1px;
+}
+.accordion.panel-group small {
+    color: #999;
+}
+.accordion.panel-group h2:focus, .accordion.panel-group h3:focus, .accordion.panel-group h4:focus {
+    outline: none;
+}

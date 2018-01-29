@@ -1,0 +1,13 @@
+{
+    "name": "Normal numbered list",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/normal-numbered-list/normal-numbered-list.html"
+        ],
+        "css": [
+            "patterns/atoms/normal-numbered-list/css/normal-numbered-list.css"
+        ]
+    }
+}

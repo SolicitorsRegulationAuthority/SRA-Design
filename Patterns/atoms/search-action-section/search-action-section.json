@@ -1,0 +1,13 @@
+{
+    "name": "Search action section",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/search-action-section/search-action-section.html"
+        ],
+        "css": [
+            "patterns/atoms/search-action-section/css/search-action-section.css"
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+.radio-custom {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.radio-custom input[type=radio] {
+    position: absolute;
+    margin-left: -16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    opacity: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+.radio-custom label {
+    min-height: 22px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 10px;
+    line-height: 17px;
+}
+.radio-custom label:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    margin-left: -16px;
+    border: 1px solid #191919;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.radio-custom label:after {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    top: -1px;
+    left: 0;
+    right: 0;
+    margin-left: -16px;
+    text-align: center;
+    padding-top: 1px;
+    font-size: 12px;
+    color: #191919;
+}
+.radio-custom input[type=radio]:checked + input[type=hidden] + label::after,
+.radio-custom input[type=radio]:checked + label::after {
+    content: '\e906';
+    font-family: 'icomoon';
+    font-size: 8px;
+}
+.radio-custom input[type=radio]:checked + input[type=hidden] + label,
+.radio-custom input[type=radio]:checked + label {
+    font-family: 'open-sans-bold', sans-serif;
+}

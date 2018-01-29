@@ -1,0 +1,16 @@
+{
+    "name": "Accordion with bracket",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/accordion-with-bracket/accordion-with-bracket.html"
+        ],
+        "css": [
+            "patterns/atoms/accordion-with-bracket/css/accordion-with-bracket.css"
+        ],
+        "js": [
+            "patterns/atoms/accordion-with-bracket/js/accordion-with-bracket.js"
+        ]
+    }
+}

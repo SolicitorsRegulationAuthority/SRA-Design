@@ -1,0 +1,77 @@
+.nav-tabs {
+  margin-bottom:25px;
+  border:0;
+  position:relative;
+}
+.nav-tabs:before {
+  content:'';
+  display:block;
+  border-bottom:1px solid #b10035;
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+.nav-tabs > li {
+  float:none;
+  display:table-cell;
+  vertical-align: middle;
+}
+.nav-tabs > li:hover,
+.nav-tabs > li:focus,
+.nav-tabs > li:active {
+  border-color:transparent;
+  background-color:#eee;
+}
+.nav-tabs > li a {
+  font-family:'open-sans-bold';
+  border-radius:0;
+  margin-right:0;
+  white-space:normal;
+  vertical-align: middle;
+  padding:10px 20px;
+}
+@media all and (max-width:480px) {
+  .nav-tabs > li a {
+    padding:10px 9px;
+  }
+}
+.nav-tabs > li a:hover,
+.nav-tabs > li a:focus {
+  border-color:transparent;
+  box-shadow:none;
+  background:transparent;
+  color:#191919;
+}
+
+.nav-tabs > li.active,
+.nav-tabs > li.active:hover,
+.nav-tabs > li.active:focus,
+.nav-tabs > li.active:active {
+  border:1px solid #b10035;
+  border-top-width: 3px;
+  border-bottom-color: #fff;
+  background-color:#fff;
+}
+
+.nav-tabs>li.active a, .nav-tabs>li.active a:hover, .nav-tabs>li.active a:focus, .nav-tabs>li.active:hover a, .nav-tabs>li.active:hover a:hover, .nav-tabs>li.active:hover a:focus, .nav-tabs>li.active:focus a, .nav-tabs>li.active:focus a:hover, .nav-tabs>li.active:focus a:focus, .nav-tabs>li.active:active a, .nav-tabs>li.active:active a:hover, .nav-tabs>li.active:active a:focus {
+  border-color:transparent;
+  box-shadow: none;
+  background: transparent;
+  color: #191919;
+}
+.nav-tabs > li:not(.active) {
+  border-bottom:1px solid transparent;
+}
+.nav-tabs > li:not(.active):hover,
+.nav-tabs > li:not(.active):focus {
+  border-bottom:1px solid #b10035;
+}
+
+.tab-pane h4 {
+  margin-top:30px;
+}
+.tab-pane a {
+  color:#b10035;
+}
+
+ 

@@ -1,0 +1,13 @@
+{
+    "name": "Handbook rules list",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/handbook-rules-list/handbook-rules-list.html"
+        ],
+        "css": [
+            "patterns/atoms/handbook-rules-list/css/handbook-rules-list.css"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Paragraph text",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/paragraph-text/paragraph-text.html"
+        ],
+        "css": [
+            "patterns/atoms/paragraph-text/css/paragraph-text.css"
+        ]
+    }
+}

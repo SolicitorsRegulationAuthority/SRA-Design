@@ -1,0 +1,13 @@
+{
+    "name": "Paragraph alert",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/paragraph-alert/paragraph-alert.html"
+        ],
+        "css": [
+            "patterns/atoms/paragraph-alert/css/paragraph-alert.css"
+        ]
+    }
+}

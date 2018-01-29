@@ -1,0 +1,11 @@
+.form-control {
+    border-radius: 6px;
+    box-shadow: none;
+    height: 40px;
+    border: 1px solid #cdcdcd;
+    background-color: #f2f2f2;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}

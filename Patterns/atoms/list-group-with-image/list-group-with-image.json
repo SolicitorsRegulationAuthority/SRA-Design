@@ -1,0 +1,13 @@
+{
+    "name": "List group with image",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/list-group-with-image/list-group-with-image.html"
+        ],
+        "css": [
+            "patterns/atoms/list-group-with-image/css/list-group-with-image.css"
+        ]
+    }
+}

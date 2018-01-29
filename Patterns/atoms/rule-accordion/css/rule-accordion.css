@@ -1,0 +1,42 @@
+.handbook-content .accordion.panel-group .panel-default {
+    position: relative;
+    padding-bottom: 15px;
+}
+.handbook-content .accordion.panel-group .panel-title>a:not(.collapsed) {
+    cursor: default;
+}
+.handbook-content .accordion.panel-group .panel-title>a {
+    padding-bottom: 0;
+}
+.handbook-content .accordion.panel-group .panel-title>a:not(.collapsed) .rule-title, .handbook-content .accordion.panel-group .panel-title>a:not(.collapsed):after {
+    cursor: pointer;
+}
+.handbook-content .accordion.panel-group .panel-title>a span {
+    margin-right: 0;
+}
+.handbook-content .accordion.panel-group a:not(.collapsed) .group-wrap, .handbook-content .accordion.panel-group .collapse.in .group-wrap {
+    background-color: #fff;
+    transition: background-color 0.15s ease-in-out;
+}
+.handbook-content .accordion.panel-group a:not(.collapsed) .group-wrap i, .handbook-content .accordion.panel-group .collapse.in .group-wrap i {
+    display: block;
+    position: absolute;
+    right: 7px;
+}
+.handbook-content .accordion.panel-group .group-wrap i {
+    display: none;
+}
+.accordion.panel-group .panel-title>a dl, .accordion.panel-group .panel-title>a dd {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0;
+    margin-bottom: 0;
+    color:#191919;
+}
+.handbook-content .accordion.panel-group p, .handbook-content .accordion.panel-group dd {
+    transition: background-color 0.15s ease-in-out;
+}
+.handbook-content .accordion.panel-group .panel-default .panel-body {
+    padding-right: 40px;
+    padding-bottom: 0;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Top level Navigation",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/top-level-navigation/top-level-navigation.html"
+        ],
+        "css": [
+            "patterns/atoms/top-level-navigation/css/top-level-navigation.css"
+        ]
+    }
+}

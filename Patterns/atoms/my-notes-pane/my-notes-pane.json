@@ -1,0 +1,13 @@
+{
+    "name": "\"My notes\" pane",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/my-notes-pane/my-notes-pane.html"
+        ],
+        "css": [
+            "patterns/atoms/my-notes-pane/css/my-notes-pane.css"
+        ]
+    }
+}

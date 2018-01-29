@@ -1,0 +1,10 @@
+{
+    "name": "Error alert",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/error-alert/error-alert.html"
+        ]
+    }
+}

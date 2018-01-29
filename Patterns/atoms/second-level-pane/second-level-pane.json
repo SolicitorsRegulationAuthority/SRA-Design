@@ -1,0 +1,13 @@
+{
+    "name": "Second-level pane",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/second-level-pane/second-level-pane.html"
+        ],
+        "css": [
+            "patterns/atoms/second-level-pane/css/second-level-pane.css"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Accordion filter",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/accordion-filter/accordion-filter.html"
+        ],
+        "css": [
+            "patterns/atoms/accordion-filter/css/accordion-filter.css"
+        ],
+        "js": [
+            "patterns/atoms/accordion-filter/js/accordion-filter.js"
+        ]
+    }
+}

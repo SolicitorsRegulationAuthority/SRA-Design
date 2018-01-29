@@ -1,0 +1,13 @@
+{
+    "name": "Landing Page CTA",
+    "type": "molecule",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/molecules/landing-page-cta/landing-page-cta.html"
+        ],
+        "css": [
+            "patterns/molecules/landing-page-cta/css/landing-page-cta.css"
+        ]
+    }
+}

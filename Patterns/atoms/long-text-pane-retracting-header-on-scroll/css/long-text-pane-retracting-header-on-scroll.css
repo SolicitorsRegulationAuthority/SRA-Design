@@ -1,0 +1,37 @@
+#hb-guidance .pane-wrap {
+  transition: margin-top 0.2s ease-in-out;
+}
+@media all and (min-width: 768px) {
+  #hb-guidance .pane-wrap {
+    margin-top: 110px;
+  } 
+}
+@media all and (min-width: 768px) {
+  #hb-guidance .pane-title {
+    position: fixed;
+    top: 0;
+    width: 33.3333%;
+    z-index: 2; 
+  } 
+}
+@media all and (min-width: 768px) {
+  #hb-guidance .pane-title.fixed .level-title {
+    padding-top: 35px;
+  }
+  #hb-guidance .pane-title.fixed .back-sidebar {
+    height: 76px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+  #hb-guidance .pane-title.fixed .back-to-rule {
+    top: 2px;
+  }
+  #hb-guidance .pane-title.fixed .back-to-rule i:before {
+    font-size: 28px;
+  } 
+}
+#hb-guidance .back-sidebar {
+  position: relative;
+  z-index: 6;
+  transition: all 0.15s ease-in-out; 
+}

@@ -1,0 +1,75 @@
+.grid-block {
+    border-top: 5px solid #b10035;
+    padding-top: 30px;
+    margin-top: 35px;
+}
+
+.grid-link {
+    display: block;
+    background: #f2f2f2;
+    padding: 25px 20px 25px 50px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    color: #191919;
+}
+
+.grid-link h4, .grid-link h3, .grid-link h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 25px;
+    border-top:none;
+    font-size: 20px;
+    padding-top:0;
+}
+
+.grid-link h4:before, .grid-link h3:before, .grid-link h2:before {
+    content: '\e90c';
+    font-family: 'icomoon';
+    color: #b10035;
+    padding-right: 12px;
+    margin-left: -27px;
+    font-size: 18px;
+    position: relative;
+    top: -1px;
+    color: #b10035;
+    display: inline-block;
+
+}
+
+.grid-purple {
+    border-color: #7D4199;
+}
+
+.grid-purple .grid-link h4:before, .grid-purple .grid-link h3:before, .grid-purple .grid-link h2:before {
+    color: #7D4199;
+}
+
+.grid-blue {
+    border-color: #009ac7;
+}
+
+.grid-blue .grid-link h4:before,.grid-blue .grid-link h3:before,.grid-blue .grid-link h2:before {
+    color: #009ac7;
+}
+
+.grid-green {
+    border-color: #a3ba4d;
+}
+
+.grid-green .grid-link h4:before,.grid-green  .grid-link h3:before,.grid-green  .grid-link h2:before {
+    color: #a3ba4d;
+}
+
+.grid-orange {
+    border-color: #f8b131;
+}
+
+.grid-orange .grid-link h4:before,.grid-orange  .grid-link h3:before,.grid-orange  .grid-link h2:before {
+    color: #f8b131;
+}
+
+/** 
+  Amended 30/08/2017 
+  Added other heading levels to the CSS to fit HTML heading model and retain consistent design whatever the heading level. 
+
+**/

@@ -1,0 +1,14 @@
+.handbook-content .accordion.panel-group .edit-out,
+.handbook-content .accordion.panel-group .edit-out * {
+    background-color: rgba(177, 0, 53, 0.3);
+    text-decoration: line-through;
+}
+.handbook-content .accordion.panel-group .edit-out,
+.handbook-content .accordion.panel-group .edit-in {
+ /* display:none; */ 
+}
+.handbook-content .accordion.panel-group .edit-in, 
+.handbook-content .accordion.panel-group .edit-in * {
+    text-decoration: underline;
+    background-color: #a6e8f6;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Rule with previous versions",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/rule-with-previous-versions/rule-with-previous-versions.html"
+        ],
+        "css": [
+            "patterns/atoms/rule-with-previous-versions/css/rule-with-previous-versions.css"
+        ]
+    }
+}

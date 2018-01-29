@@ -1,0 +1,15 @@
+.brand-logo {
+  width: 300px;
+  padding:10px 15px;
+}
+@media all and (min-width:360px) {
+  .brand-logo {
+    width:330px;
+  }
+}
+@media all and (min-width:992px) {
+  .brand-logo {
+    margin-top: 8px;
+    padding:10px 0;
+  }
+}

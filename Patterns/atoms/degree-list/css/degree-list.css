@@ -1,0 +1,64 @@
+.result-icon-links {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.result-icon-links a {
+  padding: 0;
+  color:#b50038;
+  display:inline;
+}
+.result-icon-links i {
+  margin-right: 10px;
+  margin-left: -13px;
+  display: inline-block;
+  width: 15px;
+}
+.result-icon-links small {
+  margin-bottom: 7px;
+  display: inline-block;
+  padding-left: 13px;
+}
+.degree-toggle {
+  color: #b10035;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.degree-list {
+  margin-bottom: 0;
+}
+.degree-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 25px;
+}
+
+/** Not sure if this is used**/
+.degree-list ul .well {
+  margin-top: 20px;
+}
+
+.degree-list:not(.degree-single) {
+  padding-top: 4px;
+}
+.degree-list:not(.degree-single) ul {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.degree-single ul {
+  display: inline-block;
+}
+
+.result-link small.degree-list>ul {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.result-link small.degree-list ul>li {
+    font-size: 14px;
+    padding-left: initial;
+}
+
+.result-link small.degree-list ul>li:before {
+    content: '';
+}

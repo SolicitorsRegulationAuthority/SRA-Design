@@ -1,0 +1,13 @@
+{
+    "name": "Rule changes / updates",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/rule-changes-updates/rule-changes-updates.html"
+        ],
+        "css": [
+            "patterns/atoms/rule-changes-updates/css/rule-changes-updates.css"
+        ]
+    }
+}

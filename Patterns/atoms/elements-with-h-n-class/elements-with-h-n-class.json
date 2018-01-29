@@ -1,0 +1,10 @@
+{
+    "name": "Elements with h(n) class",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/elements-with-h-n-class/elements-with-h-n-class.html"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Error indicator",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/error-indicator/error-indicator.html"
+        ],
+        "css": [
+            "patterns/atoms/error-indicator/css/error-indicator.css"
+        ]
+    }
+}

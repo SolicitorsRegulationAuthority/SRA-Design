@@ -1,0 +1,13 @@
+{
+    "name": "Pane text formatting",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/pane-text-formatting/pane-text-formatting.html"
+        ],
+        "css": [
+            "patterns/atoms/pane-text-formatting/css/pane-text-formatting.css"
+        ]
+    }
+}
