@@ -27,6 +27,7 @@ Examples are stored in Frontify.com
 
 ## Change log
 
-* 20/03/2018 - added Python script which builds CSS and Javascript
+* 27/02/2018 - added margin:0 to panel-title
+* 20/02/2018 - added Python script which builds CSS and Javascript
 * 29/01/2018 - changed structure of the repo so it takes a direct export from Frontify
 * 11/10/2017 - changed around primary and secondary buttons classes
