@@ -4,7 +4,7 @@
 .alert-info-sm.alert-info:before {
     top: 14px;
     left: 18px;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 @media all and (min-width:768px) {
   .alert-info-sm.alert-info {
@@ -13,6 +13,6 @@
   .alert-info-sm.alert-info:before {
     top: 10px;
     left: 26px;
-    font-size: 38px;
+    font-size: 3.8rem;
   }
 }

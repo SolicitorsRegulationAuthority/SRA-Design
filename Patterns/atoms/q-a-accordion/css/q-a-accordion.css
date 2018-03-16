@@ -29,8 +29,8 @@
 }
 .article ul:not(.nav-tabs)>li, .accordion.panel-group ul:not(.list-no-bullets) > li {
     list-style-type: none;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 1.6rem;
+    line-height: 1.6;
     margin-bottom: 12px;
     padding-left: 19px;
 }
@@ -42,7 +42,7 @@
     content: "\002022";
     color: #b10035;
     padding-right: 10px;
-    font-size: 22px;
+    font-size: 2.2rem;
     position: relative;
     margin-left: -19px;
     float: left;

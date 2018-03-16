@@ -9,8 +9,8 @@
 .event .event-details {
     margin-bottom: 15px;
     display: inline-block;
-    line-height: 25px;
-    font-size: 15px;
+    line-height: 1.6;
+    font-size: 1.5rem;
 }
 .event .event-link {
     margin-top: 10px;

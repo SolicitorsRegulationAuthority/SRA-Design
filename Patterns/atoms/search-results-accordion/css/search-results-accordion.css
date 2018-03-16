@@ -6,7 +6,7 @@
   font-family: 'icomoon';
   display: inline-block;
   padding-right: 8px;
-  font-size:15px;
+  font-size:1.5rem;
 }
 .accordion-results.panel-group .panel-default {
     padding-left: 15px;
@@ -25,8 +25,8 @@
     display: block;
     clear: both;
     color: #000;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 1.5rem;
+    line-height:1.6;
     font-family: 'open-sans', sans-serif;
 }
 .accordion.panel-group .panel-title > a span {
@@ -43,14 +43,14 @@
   display: block;
   clear: both;
   color: #000;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 1.5rem;
+  line-height: 1.6;
 }
 .accordion-results.panel-group .panel-body span {
     display: block;
     margin-bottom: 10px;
     padding-left: 30px;
-    font-size:16px;
+    font-size:1.6rem;
 }
 .accordion-results.panel-group .panel-body span i {
     padding-right: 12px;

@@ -2,11 +2,11 @@
     padding:0;
 }
 .side-menu li {
-    line-height: 22px;
+    line-height: 1.5;
     margin-bottom: 0;
     list-style: none;
     font-family: 'open-sans', sans-serif;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 .side-menu li + li {
     border-top: 1px solid #cdcdcd;

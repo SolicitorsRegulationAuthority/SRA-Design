@@ -1,6 +1,6 @@
 .switch-wrap > span {
   margin-right: 20px;
-  font-size:15px;
+  font-size:1.5rem;
 }
 @media all and (max-width:767px) {
   .switch-wrap {

@@ -2,7 +2,7 @@
   display: block;
   color: #b10035;
   margin-bottom: 12px;
-  font-size: 13px;
+  font-size: 1.3rem;
   text-decoration: underline;
   text-align: right;
 }
@@ -35,8 +35,8 @@
   margin-bottom: 15px;
 }
 .accordion.panel-group .panel-title {
-  font-size: 21px;
-  line-height: 30px;
+  font-size: 2.1rem;
+  line-height: 1.4;
   clear: both;
   overflow: hidden;
   position: relative;

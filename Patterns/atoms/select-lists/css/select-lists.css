@@ -4,7 +4,7 @@ select {
   background: #eee;
   padding: 10px 12px;
   font-family: 'open-sans-bold';
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 select:focus {
   outline:none;
@@ -35,6 +35,6 @@ select:focus {
   position: absolute;
   top: 14px;
   right: 8px;
-  font-size: 14px;
+  font-size: 1.4rem;
   z-index: 0;
 }

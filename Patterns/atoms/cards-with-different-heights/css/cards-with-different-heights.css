@@ -10,7 +10,7 @@
 .search-card .card-topic {
     font-weight:bold;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 .search-card .card-date {
     color: #999;
@@ -23,12 +23,12 @@
     text-align: center;
 }
 .card-icon-wrap i {
-    font-size: 26px;
+    font-size: 2.6rem;
 }
 .card-icon-wrap span {
     display: block;
     font-weight:bold;
-    font-size: 11px;
+    font-size: 1.1rem;
     text-transform: uppercase;
 }
 .search-card-body {

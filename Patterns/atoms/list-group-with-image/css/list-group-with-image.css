@@ -5,7 +5,7 @@
     content: '\e90c';
     font-family: 'icomoon';
     color: #b10035;
-    font-size: 19px;
+    font-size: 1.9rem;
     margin-left: -22px;
     padding-right: 12px;
     position: relative;
@@ -42,7 +42,7 @@
   }
 }
 .img-list-group .list-group .list-group-item {
-  font-size:16px;
+  font-size:1.6rem;
 }
 .img-list-group .list-group .list-group-item:first-child {
     border-top: 0;
@@ -51,7 +51,7 @@
     content: '\e90c';
     font-family: 'icomoon';
     color: #b10035;
-    font-size: 14px;
+    font-size: 1.4rem;
     margin-left: -21px;
     padding-right: 10px;
     position: relative;

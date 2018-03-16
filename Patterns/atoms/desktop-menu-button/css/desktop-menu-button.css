@@ -2,12 +2,12 @@
     color: #fff;
     font-family: 'open-sans-bold';
     padding:10px 15px;
-    font-size: 15px;
+    font-size: 1.5rem;
     width: 200px;
     text-align: left;
     position: relative;
     z-index: 2;
-    line-height:20px
+    line-height:1.4
 }
 #browse-menu-btn:hover, #browse-menu-btn:focus {
     background: #191919;
@@ -16,7 +16,7 @@
 #browse-menu-btn .icon-bars {
     color: #b10035;
     padding-right: 9px;
-    font-size: 21px;
+    font-size: 2.1rem;
     position: relative;
     top: 3px;
     pointer-events: none;

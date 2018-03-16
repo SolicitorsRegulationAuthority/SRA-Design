@@ -1,7 +1,7 @@
 .link-list-block ul {
   list-style-type: none;
   padding-left: 0;
-  line-height: 23px;
+  line-height: 1.43;
   font-size:16px;
 }
 .link-list-block ul a {

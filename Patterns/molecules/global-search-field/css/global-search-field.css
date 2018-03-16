@@ -9,6 +9,7 @@
   box-shadow:none;
   border-radius:0;
   height:34px;
+  padding-left:0.5rem;
 }
 .search-box input[type="text"]:focus {
   border-color:#ccc;

@@ -6,7 +6,7 @@
     padding-left: 35px;
     padding-right:15px;
     margin-bottom: 20px;
-  line-height:25px;
+  line-height:1.8;
 }
 .btn.btn-cta:before {
     content: '\e90c';
@@ -15,7 +15,7 @@
     position: absolute;
     top: 10px;
     left: 16px;
-    font-size: 13px;
+    font-size: 1.3rem;
     transition: color 0.15s ease-in-out;
 }
 .btn.btn-cta:hover:before {
@@ -25,13 +25,14 @@
     color: #fff;
     margin-top: 6px;
     margin-bottom: 6px;
-    font-size: 15px;
+    font-size: 1.5rem;
+  font-family: 'open-sans-bold', arial, sans-serif;
 }
 .btn.btn-cta p {
     color: #fff;
     font-family: 'open-sans', sans-serif;
     font-weight:normal;
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 1.3rem;
+    line-height: 1.4;
     margin-bottom: 15px;
 }

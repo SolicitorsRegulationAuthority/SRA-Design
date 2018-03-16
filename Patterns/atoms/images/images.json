@@ -1,0 +1,10 @@
+{
+    "name": "Images",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/images/images.html"
+        ]
+    }
+}

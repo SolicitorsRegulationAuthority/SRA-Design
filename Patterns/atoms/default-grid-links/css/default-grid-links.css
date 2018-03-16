@@ -16,9 +16,9 @@
 .grid-link h4, .grid-link h3, .grid-link h2 {
     margin-top: 0;
     margin-bottom: 10px;
-    line-height: 25px;
+    line-height: 1.25;
     border-top:none;
-    font-size: 20px;
+    font-size: 2rem;
     padding-top:0;
 }
 
@@ -28,7 +28,7 @@
     color: #b10035;
     padding-right: 12px;
     margin-left: -27px;
-    font-size: 18px;
+    font-size: 1.8rem;
     position: relative;
     top: -1px;
     color: #b10035;

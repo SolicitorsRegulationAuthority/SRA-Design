@@ -6,13 +6,12 @@
     color:#191919;
     background:#f2f2f2;
     text-align:left;
-    color:$brand-primary;
     border-top:1px solid #d2d2d2;
     border-bottom:1px solid #d2d2d2;
     border-left:0;
     border-right:0;
     font-family:'open-sans-bold';
-    font-size:20px;
+    font-size:2rem;
     padding:12px;
     text-transform:uppercase;
 }
@@ -21,7 +20,7 @@
 }
 .accordion-well .link-block .icon {
     float:right;
-    font-size:23px;
+    font-size:2.3rem;
 }
 
 .accordion-well .link-block .well {

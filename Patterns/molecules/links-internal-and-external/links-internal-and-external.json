@@ -1,0 +1,13 @@
+{
+    "name": "Links (internal and external)",
+    "type": "molecule",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/molecules/links-internal-and-external/links-internal-and-external.html"
+        ],
+        "css": [
+            "patterns/molecules/links-internal-and-external/css/links-internal-and-external.css"
+        ]
+    }
+}

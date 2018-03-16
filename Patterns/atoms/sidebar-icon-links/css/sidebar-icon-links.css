@@ -3,13 +3,13 @@
 }
 .links-icon .icon {
   padding-right:8px;
-  font-size:17px;
+  font-size:1.7rem;
   display:inline-block;
 }
 .links-icon a {
   text-decoration: underline;
   padding-right:12px;
-  font-size:14px;
+  font-size:1.4rem;
   margin-bottom:12px;
   color:#191919;
 }
