@@ -1,0 +1,10 @@
+{
+    "name": "Adding data to table\u00a0",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/adding-data-to-table/adding-data-to-table.html"
+        ]
+    }
+}

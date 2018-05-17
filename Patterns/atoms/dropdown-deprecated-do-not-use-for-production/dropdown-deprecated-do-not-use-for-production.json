@@ -1,0 +1,13 @@
+{
+    "name": "Dropdown (deprecated - do not use for production)",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/dropdown-deprecated-do-not-use-for-production/dropdown-deprecated-do-not-use-for-production.html"
+        ],
+        "css": [
+            "patterns/atoms/dropdown-deprecated-do-not-use-for-production/css/dropdown-deprecated-do-not-use-for-production.css"
+        ]
+    }
+}

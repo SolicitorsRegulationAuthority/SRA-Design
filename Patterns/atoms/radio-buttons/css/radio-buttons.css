@@ -27,7 +27,7 @@
     vertical-align: middle;
     position: relative;
     padding-left: 10px;
-    line-height: 17px;
+    line-height: 1.1;
 }
 .radio-custom label:before {
     content: "";
@@ -46,7 +46,7 @@
     position: absolute;
     width: 16px;
     height: 16px;
-    line-height: 1.33;
+    line-height: 1.9;
     top: -1px;
     left: 0;
     right: 0;
@@ -60,7 +60,7 @@
 .radio-custom input[type=radio]:checked + label::after {
     content: '\e906';
     font-family: 'icomoon';
-    line-height:2
+  line-height:1.4;
 }
 .radio-custom input[type=radio]:checked + input[type=hidden] + label,
 .radio-custom input[type=radio]:checked + label {

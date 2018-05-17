@@ -1,0 +1,13 @@
+{
+    "name": "Complex form pattern",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/complex-form-pattern/complex-form-pattern.html"
+        ],
+        "css": [
+            "patterns/atoms/complex-form-pattern/css/complex-form-pattern.css"
+        ]
+    }
+}
