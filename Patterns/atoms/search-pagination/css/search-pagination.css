@@ -1,0 +1,2 @@
+.pagination li a {color:#b50038;font-size:18px;}
+.pagination li#current-page a, .pagination li a.page-back, .pagination li a.page-next,.pagination li a:hover  {color: #fff;background-color:#b10038;}

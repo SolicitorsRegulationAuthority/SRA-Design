@@ -1,0 +1,13 @@
+{
+    "name": "Icon loading",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "css": [
+            "patterns/atoms/icon-loading/css/icon-loading.css"
+        ],
+        "html": [
+            "patterns/atoms/icon-loading/icon-loading.html"
+        ]
+    }
+}

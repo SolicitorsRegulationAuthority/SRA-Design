@@ -22,3 +22,345 @@
     pointer-events: none;
     line-height:0;
 }
+
+
+<!--- Code for the main menu -->
+
+.browse-all-menu .active-menu a {
+    font-family: open-sans-bold,helvetica,arial,sans-serif;
+    font-weight: 400
+}
+
+.nav-pills>li>a {
+    border-radius: 2px
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px
+}
+
+@media all and (max-width: 991px) {
+    .navbar-default {
+        width:100%;
+        padding: 0;
+        min-height: 62px
+    }
+}
+
+@media all and (max-width: 991px) {
+    .navbar-default .navbar-collapse {
+        display:none!important
+    }
+}
+
+@media all and (max-width: 991px) {
+    .navbar-default .navbar-header {
+        float:none;
+        margin: 0 0 10px 0
+    }
+}
+
+@media all and (max-width: 991px) and (min-width:768px) {
+    .navbar-default .navbar-header {
+        width:750px;
+        margin: 0 auto;
+        margin-bottom: 10px
+    }
+}
+
+.navbar-header::before,.navbar-header:after {
+    content: " ";
+    display: table
+}
+
+.navbar-header:after {
+    clear: both
+}
+
+@media (min-width: 768px) {
+    .navbar-header {
+        float:left
+    }
+}
+
+@media all and (max-width: 991px) {
+    .navbar-default {
+        width:100%;
+        padding: 0;
+        min-height: 62px
+    }
+}
+
+@media all and (max-width: 991px) {
+    .navbar-default .navbar-collapse {
+        display:none!important
+    }
+}
+
+@media all and (max-width: 991px) {
+    .navbar-default .navbar-header {
+        float:none;
+        margin: 0 0 10px 0
+    }
+}
+
+@media all and (max-width: 991px) and (min-width:768px) {
+    .navbar-default .navbar-header {
+        width:750px;
+        margin: 0 auto;
+        margin-bottom: 10px
+    }
+}
+
+.parent-link:focus,.parent-link:hover {
+    color: #b10035
+}
+
+#mmenu-test .nav-pills {
+    display: none
+}
+
+#browse-menu-btn.btn-close i::before {
+    content: '\e911';
+    font-family: icomoon
+}
+
+#browse-menu-btn .fa-bars {
+    color: #b10035;
+    padding-right: 10px;
+    font-size: 2.1rem;
+    position: relative;
+    top: 2px;
+    margin-top: -2px;
+    pointer-events: none
+}
+
+.nav-stacked>li+li {
+    margin-top: 0
+}
+
+.bottom-bar-menu {
+    border-bottom: 1px solid #d9d9d9
+}
+
+@media (min-width: 768px) {
+    .bottom-bar-menu {
+        margin-bottom:20px
+    }
+}
+
+.top-bar-menu a {
+    color: #fff
+}
+
+.top-bar-menu a:focus,.top-bar-menu a:hover {
+    color: #fff
+}
+
+.second-level-menu.single-link-menu a {
+    margin-bottom: 18px
+}
+
+#browse-all-collapse {
+    margin-bottom: 20px
+}
+
+@media (min-width: 768px) {
+    #browse-all-collapse {
+        margin-top:-20px;
+        border-bottom: 1px solid #cdcdcd
+    }
+}
+
+@media (max-width: 767px) {
+    #browse-all-collapse {
+        background:#f2f2f2;
+        padding: 0
+    }
+}
+
+#browse-all-collapse .nav-stacked .active {
+    background-color: #b10035;
+    color: #fff;
+    border-radius: 0
+}
+
+@media (max-width: 767px) {
+    #browse-all-collapse .nav-stacked .expand-children {
+        width:15%;
+        border-left: 1px solid #eee;
+        text-align: center;
+        background: #fff;
+        color: #b10035
+    }
+}
+
+@media (max-width: 767px) {
+    #browse-all-collapse .nav-stacked .expand-children+a {
+        width:85%
+    }
+}
+
+#browse-all-collapse .current-active-level {
+    opacity: 1!important;
+    left: 0!important;
+    background: #f2f2f2;
+    border-right: 1px solid #cdcdcd;
+    font-family: open-sans-bold,helvetica,arial,sans-serif
+}
+
+#browse-all-collapse .current-active-level .current-active-level {
+    border: 0
+}
+
+#browse-all-collapse .first-level>.current-active-level {
+    background: #fff;
+    border: 0
+}
+
+.current-page {
+    background: #b10035;
+    color: #fff
+}
+
+.expand-children span {
+    display: none
+}
+
+.big-menu {
+    position: relative
+}
+
+.big-menu::before {
+    content: '';
+    display: block;
+    background-color: transparent;
+    width: 100%;
+    height: 43px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 7px;
+    transition: background-color .15s ease-in-out
+}
+
+@media (min-width: 992px) {
+    .big-menu-open::before {
+        background-color:#555;
+        z-index: 1
+    }
+}
+
+.browse-all-menu {
+    overflow: hidden
+}
+
+@media (max-width: 767px) {
+    .browse-all-menu {
+        padding:0
+    }
+}
+
+.browse-all-menu .nav-pills .active a {
+    background-color: #b10035
+}
+
+.browse-all-menu .nav-pills .active a:focus,.browse-all-menu .nav-pills .active a:hover {
+    background-color: #e40044;
+    border-color: #e40044
+}
+
+.browse-all-menu .col-sm-2,.browse-all-menu .col-sm-5 {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 50em;
+    margin-bottom: -50em;
+    background-color: #fff;
+    transition: background-color 50ms ease-in-out;
+    position: relative
+}
+
+.browse-all-menu .first-level {
+    z-index: 3;
+    border-right: 1px solid #cdcdcd
+}
+
+.browse-all-menu .second-level {
+    z-index: 2
+}
+
+.browse-all-menu .third-level {
+    z-index: 1;
+    border-left: 1px solid #cdcdcd
+}
+
+.browse-all-menu .second-level,.browse-all-menu .third-level {
+    left: -160px
+}
+
+.browse-all-menu .active-menu {
+    background-color: #f2f2f2;
+    border-right: 1px solid #cdcdcd
+}
+
+@media (max-width: 767px) {
+    .browse-all-menu .nav li {
+        border-bottom:1px solid #ddd
+    }
+}
+
+.browse-all-menu .nav li a:focus,.browse-all-menu .nav li a:hover {
+    color: #b10035;
+    border-radius: 0
+}
+
+@media (min-width: 992px) {
+    .browse-all-menu .nav li a:focus,.browse-all-menu .nav li a:hover {
+        background-color:#b10035;
+        color: #fff
+    }
+}
+
+.browse-all-menu .col-sm-4 {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.small-navigation-button {
+    float: right
+}
+
+@media all and (min-width: 380px) {
+    .navbar-extra-xs .btn-secondary {
+        padding-left:20px;
+        padding-right: 20px
+    }
+}
+
+.navbar-extra-xs .btn-secondary .fa {
+    font-size: 1.8rem
+}
+
+.up-nav {
+    transform: translateY(0);
+    top: 0
+}
+
+.down-nav {
+    transform: translateY(-50px);
+    top: 0
+}
+.browse-all-menu a {
+    color: #191919;
+    text-decoration: none;}
+
+.browse-all-menu .parent-link {
+    padding: 10px 15px;
+    display: block;
+    font-size: 1.5rem;
+    font-family: open-sans-bold,helvetica,arial,sans-serif;
+    font-weight: 400;
+    color: #b10035;
+}

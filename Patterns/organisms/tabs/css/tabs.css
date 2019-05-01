@@ -15,7 +15,14 @@
   float:none;
   display:table-cell;
   vertical-align: middle;
+  padding:0!important;
 }
+
+.nav-tabs > li:before {
+  display:none;
+  margin:0;
+  padding:0;
+  }
 .nav-tabs > li:hover,
 .nav-tabs > li:focus,
 .nav-tabs > li:active {

@@ -1,0 +1,13 @@
+{
+    "name": "Three column listing page",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "css": [
+            "patterns/atoms/three-column-listing-page/css/three-column-listing-page.css"
+        ],
+        "html": [
+            "patterns/atoms/three-column-listing-page/three-column-listing-page.html"
+        ]
+    }
+}

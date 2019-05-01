@@ -3,9 +3,7 @@
   margin-bottom:16px;
 }
 .search-box input[type="text"] {
-  border-left:0;
-  border-right:0;
-  border-top:0;
+  border:0;
   box-shadow:none;
   border-radius:0;
   height:34px;

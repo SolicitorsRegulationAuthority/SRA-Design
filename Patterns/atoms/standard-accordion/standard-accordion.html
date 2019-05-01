@@ -1,14 +1,14 @@
 <a href="#" class="open-all text-right">Open all</a>
-<div class="panel-group accordion collapse in" id="accordion1" role="tablist" aria-multiselectable="true" aria-expanded="true">
+<div class="panel-group accordion collapse in" id="accordion1" aria-expanded="false">
     <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingOne">
+        <div class="panel-heading" id="headingOne">
             <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
+                <a  data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
                     Accordion 1 heading 
                 </a>
             </h4>
         </div>
-        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="height: 0px;">
+        <div id="collapseOne" class="panel-collapse collapse in" aria-labelledby="headingOne" aria-expanded="false" style="">
             <div class="panel-body">
                 <p>Accordion 1 body text.</p>
             </div>
@@ -16,16 +16,16 @@
     </div>
   <!-- New accordion panel starts here, note Two on id, href, aria- controls, -->
    <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingTwo">
+        <div class="panel-heading" id="headingTwo">
             <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed">
+                <a data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed">
                     Accordion 2 heading 
                 </a>
             </h4>
         </div>
-        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
+        <div id="collapseTwo" class="panel-collapse collapse in" aria-labelledby="headingTwo" aria-expanded="false">
             <div class="panel-body">
-                <p>Accordion 2 body text.</p>
+              <p>Accordion 2 body text. But here's a twist it has an <span id="anchor">anchor</span> in it.</p>
             </div>
         </div>
     </div>

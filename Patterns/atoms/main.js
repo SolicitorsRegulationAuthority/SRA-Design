@@ -562,26 +562,28 @@ $('.tooltip').tooltipster({
    interactive: true
 });
 
-$('.iframe-wrap').append('<img src="//www.sra.org.uk/img/play.svg" class="play-button">');
+$('.iframe-wrap').append(
+  '<img src="//www.sra.org.uk/img/play.svg" class="play-button">'
+);
 
-$('.play-button').on('click', function(e) {
- 
-  $(".iframe-wrap iframe")[0].src += "&autoplay=1";
+$('.iframe-wrap').on('click', function(e) {
+  this.querySelector('iframe').src += '&autoplay=1';
   e.preventDefault();
-  $(this).fadeOut();
-             
+  $(this)
+    .find('.play-button')
+    .fadeOut();
 });
+
 
 /* Change image URL accordingly */
 
-$('.iframe-wrap').append('<img src="http://sra-framework.staging.iepreview.co.uk/img/play.svg" class="play-button">');
+$('.iframe-wrap').append('<img src="//www.sra.org.uk/img/play.svg" class="play-button">');
 
-$('.play-button').on('click', function(e) {
- 
-  $(".iframe-wrap iframe")[0].src += "&autoplay=1";
+$('.iframe-wrap').on('click', function(e) {
+  this.querySelector('iframe').src += '&autoplay=1';
   e.preventDefault();
-  $(this).fadeOut();
-             
+  $(this).find('.play-button').fadeOut();
+
 });
 
 $('.iframe-wrap').append('<img src="//www.sra.org.uk/img/play.svg" class="play-button">');

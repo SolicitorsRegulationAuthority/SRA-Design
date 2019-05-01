@@ -1,0 +1,38 @@
+.sra-navbar {
+  padding:1rem;
+  font-weight:bold;
+  background-color:#b50031; 
+  color:#fff; 
+  
+  }
+
+
+.sra-navbar .btn-group{
+ display: -ms-flexbox;
+ flex: 1 1 -1px;
+}
+
+
+.sra-navbar p {
+  color:white;
+  margin:1rem;
+ 
+}
+
+.sra-navbar .btn-group .btn{
+  color:#fff;
+  margin: 0 1rem;
+
+}
+
+.sra-navbar .btn:hover,
+.sra-navbar .btn:focus {
+  color:#fff;
+  background-color:#9a012f;
+}
+
+
+@supports(display:flex){
+  .sra-navbar .btn-group{display:flex;align-items:center;justify-content:center;}
+  .sra-navbar p {margin:0;}
+}

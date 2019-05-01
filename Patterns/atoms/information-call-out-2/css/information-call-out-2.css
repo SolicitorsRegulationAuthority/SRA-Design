@@ -1,0 +1,2 @@
+.call-out-center {display:table;width:100%;}
+.call-out-center > * {display:table-row;vertical-align: middle;}

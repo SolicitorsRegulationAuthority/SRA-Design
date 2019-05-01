@@ -3,6 +3,8 @@
   float: none;
   margin: 0;
  } 
+
+}
 }
 @media all and (max-width: 991px) and (min-width: 768px) {
  .navbar-default .navbar-header {
@@ -10,4 +12,31 @@
   margin: 0 auto;
   margin-bottom: 10px;
  }
+}
+
+  #browse-menu-btn {
+     color: #fff;
+    font-family: open-sans-bold,helvetica,arial,sans-serif;
+    font-weight: 400;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    width: 200px;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+    line-height: 1.33;
+}
+#browse-menu-btn:hover, #browse-menu-btn:focus {
+    background: #191919;
+    color: #fff;
+}
+#browse-menu-btn .icon-bars {
+    color: #b10035;
+    padding-right: 10px;
+    font-size: 2.1rem;
+    position: relative;
+    top: 2px;
+    margin-top: -2px;
+    pointer-events: none;
+    display: inline-block;
 }

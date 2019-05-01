@@ -1,0 +1,13 @@
+{
+    "name": "Font loading",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/font-loading/font-loading.html"
+        ],
+        "css": [
+            "patterns/atoms/font-loading/css/font-loading.css"
+        ]
+    }
+}

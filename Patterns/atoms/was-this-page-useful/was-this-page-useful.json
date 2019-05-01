@@ -1,0 +1,16 @@
+{
+    "name": "Was this page useful?",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/was-this-page-useful/was-this-page-useful.html"
+        ],
+        "css": [
+            "patterns/atoms/was-this-page-useful/css/was-this-page-useful.css"
+        ],
+        "js": [
+            "patterns/atoms/was-this-page-useful/js/was-this-page-useful.js"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: open-sans;
+    src: url(https://www.sra.org.uk/fonts/OpenSans-Regular.eot);
+    src: url(https://www.sra.org.uk/fonts/OpenSans-Regular.eot?eizszf#iefix) format("embedded-opentype"),url(https://www.sra.org.uk/fonts/OpenSans-Regular.ttf?eizszf) format("truetype"),url(https://www.sra.org.uk/fonts/OpenSans-Regular.woff?eizszf) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display:swap}
+
+@font-face {
+    font-family: open-sans-bold;
+    font-weight: 800;
+    src: url("https://www.sra.org.uk/fonts/OpenSans-Bold.eot");
+    src: url(https://www.sra.org.uk/fonts/OpenSans-Bold.eot?eizszf#iefix) format("embedded-opentype"),url(https://www.sra.org.uk/fonts/OpenSans-Bold.ttf?eizszf) format("truetype"),url(https://www.sra.org.uk/fonts/OpenSans-Bold.woff?eizszf) format("woff");
+    font-style: normal;
+    font-display:swap}
+
+@font-face {
+    font-family: icomoon;
+    src: url(https://www.sra.org.uk/fonts/icomoon.eot);
+    src: url(https://www.sra.org.uk/fonts/icomoon.eot?#iefix) format('embedded-opentype'),url(https://www.sra.org.uk/fonts/icomoon.woff) format('woff'), url(/api/assets/sqbM_lPRNZpmiNmsANRm0jkBq33R01hkTTcnGyHEnWQZT-_pNBMwwWrOxOvasirEg3UtcBe_jEsjJM5Qv3rrMg,,/fonts/icomoon.ttf) format('truetype'),url(https://www.sra.org.uk/fonts/icomoon.svg#) format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display:swap}

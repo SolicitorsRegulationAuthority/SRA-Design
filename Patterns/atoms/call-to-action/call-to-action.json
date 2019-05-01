@@ -1,0 +1,13 @@
+{
+    "name": "Call to action",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/call-to-action/call-to-action.html"
+        ],
+        "css": [
+            "patterns/atoms/call-to-action/css/call-to-action.css"
+        ]
+    }
+}

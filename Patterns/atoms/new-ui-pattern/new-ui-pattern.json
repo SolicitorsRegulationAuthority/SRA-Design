@@ -5,6 +5,9 @@
     "assets": {
         "html": [
             "patterns/atoms/new-ui-pattern/new-ui-pattern.html"
+        ],
+        "css": [
+            "patterns/atoms/new-ui-pattern/css/new-ui-pattern.css"
         ]
     }
 }

@@ -7,7 +7,7 @@
 .article ul li {
   list-style-type: none;
   font-size: 1.6rem;
-  line-height: 1.5;
+  line-height: 1.2;
   margin-bottom: 12px;
   padding-left: 19px;
 }
@@ -17,6 +17,7 @@
   color: #b10035;
   padding-right: 10px;
   font-size: 2.2rem;
+  line-height:1.25;
   position: relative;
   margin-left: -19px;
 

@@ -1,0 +1,13 @@
+{
+    "name": "Highlighting",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/highlighting/highlighting.html"
+        ],
+        "css": [
+            "patterns/atoms/highlighting/css/highlighting.css"
+        ]
+    }
+}

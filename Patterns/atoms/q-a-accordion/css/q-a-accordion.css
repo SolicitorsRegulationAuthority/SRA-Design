@@ -48,3 +48,13 @@
     float: left;
     display: block;
 }
+
+.accordion.panel-group .panel-title a.single * {
+    pointer-events: none;
+    cursor: none
+}
+
+.accordion.panel-group .panel-title a.collapsed.single:after,
+.accordion.panel-group .panel-title a.single:after {
+    content: ''
+}

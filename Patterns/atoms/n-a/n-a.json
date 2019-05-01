@@ -1,0 +1,13 @@
+{
+    "name": "",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/n-a/n-a.html"
+        ],
+        "js": [
+            "patterns/atoms/n-a/js/n-a.js"
+        ]
+    }
+}

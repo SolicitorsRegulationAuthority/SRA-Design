@@ -1,0 +1,13 @@
+{
+    "name": "Sidebar login",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/sidebar-login/sidebar-login.html"
+        ],
+        "css": [
+            "patterns/atoms/sidebar-login/css/sidebar-login.css"
+        ]
+    }
+}

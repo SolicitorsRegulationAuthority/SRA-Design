@@ -1,0 +1,4 @@
+.search-item {border:2px solid #666666;background-color:unset;}
+.search-item .tags {margin-bottom:0.25rem;color:#333333}
+.search-item.new {border:2px solid #b10035;background-color:unset;margin-top:42px}
+.search-item.new .new {background:#b50038;color:#fff;padding:1rem 1.5rem;font-weight:800;position:absolute;margin:-5.8rem -2rem;right:2rem}

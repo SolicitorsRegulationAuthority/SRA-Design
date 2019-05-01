@@ -1,0 +1,13 @@
+{
+    "name": "Search pagination",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/search-pagination/search-pagination.html"
+        ],
+        "css": [
+            "patterns/atoms/search-pagination/css/search-pagination.css"
+        ]
+    }
+}

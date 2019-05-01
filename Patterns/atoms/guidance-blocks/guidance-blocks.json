@@ -1,0 +1,13 @@
+{
+    "name": "Guidance blocks",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "html": [
+            "patterns/atoms/guidance-blocks/guidance-blocks.html"
+        ],
+        "css": [
+            "patterns/atoms/guidance-blocks/css/guidance-blocks.css"
+        ]
+    }
+}

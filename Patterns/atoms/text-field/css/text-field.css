@@ -3,9 +3,13 @@
     box-shadow: none;
     height: 40px;
     border: 1px solid #cdcdcd;
-    background-color: #f2f2f2;
+    background-color: #fff;
     display: inline-block;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
 }
+
+.well .form-control {background-color:#fff}
+
+label ~ label {margin-top:2rem;}

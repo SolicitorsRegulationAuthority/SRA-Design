@@ -1,0 +1,9 @@
+.well.filters {
+    border-top:5px solid #b50038;
+  
+}
+
+.well.filters h3 {color:#b50038;margin-top:0}
+
+.well.filters .input-group-btn .btn-secondary {border-bottom:0}
+.well.filters .search-box .input-group,  .filters .search-box input[type=text]{width:100%}

@@ -1,0 +1,13 @@
+{
+    "name": "Information call out (2)",
+    "type": "atom",
+    "stability": "stable",
+    "assets": {
+        "css": [
+            "patterns/atoms/information-call-out-2/css/information-call-out-2.css"
+        ],
+        "html": [
+            "patterns/atoms/information-call-out-2/information-call-out-2.html"
+        ]
+    }
+}

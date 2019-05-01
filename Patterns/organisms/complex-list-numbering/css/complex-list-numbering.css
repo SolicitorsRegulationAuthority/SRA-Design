@@ -1,20 +1,36 @@
 .list-complex {
   margin:15px 0;
 }
-.list-complex dt {
-  display:block;
-  float:left;
-  clear:left;
-  width:40px;
+.list-complex dt, dl.list-complex dd > dl > dt {
+    display: block;
+    float: left;
+    clear: left;
+    width: 40px;
+    padding: inherit;
   font-family: 'open-sans-bold', sans-serif;
 }
-.list-complex dd {
+
+.list-complex dd, .list-complex dd dl>dd {
   margin:0 0 15px 40px;
 }
+
+
 .list-complex a dfn {
   text-decoration:none;
   display:inline-block;
   border-bottom: 1px dotted #b10035;
   line-height:1.25;
   cursor:pointer;
+}
+
+dl:not(.list-complex)>dt {
+    padding: 10px 0;
+}
+
+dl:not(.list-complex)>dd {
+    padding-bottom: 15px;
+}
+
+.article dl:not(.list-complex) dd ul>li {
+    font-size: 1.5rem;
 }

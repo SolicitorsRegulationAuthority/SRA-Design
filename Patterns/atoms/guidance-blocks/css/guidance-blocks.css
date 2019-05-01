@@ -1,0 +1,43 @@
+.search-item.well {
+  border: 2px solid #666;
+  background-color: unset;
+  position:relative;
+}
+.search-item .tags {
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+.search-item.well.highlighted {
+  border: 2px solid #b10035;
+  background-color: unset;
+  margin-top: 46px;
+  
+}
+
+
+.search-item .pinned {
+  position: absolute;
+  right: 0.5em;
+  top:0.5em;
+  margin: 0 1rem;
+  color:#b50038;
+  
+}
+
+.search-item .pinned:before{
+  content: "\e91b"
+}
+
+
+.search-item.new .new {
+  background: #b50038;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  font-weight: 800;
+  position: absolute;
+  margin: -5.8rem -2rem;
+  right: calc(1rem + 9px);
+  
+}
+
+.filter-sort {display:block;padding:0 15px}
